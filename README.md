@@ -1,57 +1,71 @@
-# React + TypeScript + Vite
+# 🐑 Quinta Casa do Plátano
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website oficial da Quinta Casa do Plátano - Criação de Ovelhas Vendéen em Samora Correia, Portugal.
 
-Currently, two official plugins are available:
+## 🌟 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este é o website institucional da Quinta Casa do Plátano, especializada na criação de ovelhas da raça Vendéen. O site apresenta informações sobre a quinta, os nossos serviços, e permite contacto direto com os proprietários.
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React 18** - Biblioteca JavaScript para interfaces
+- **TypeScript** - Tipagem estática para JavaScript
+- **Vite** - Build tool moderna e rápida
+- **Tailwind CSS** - Framework CSS utilitário
+- **React Router** - Navegação entre páginas
+- **Lucide React** - Ícones modernos
+- **Framer Motion** - Animações suaves
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 📦 Instalação e Execução
+
+### Pré-requisitos
+- Node.js (versão 18 ou superior)
+- pnpm (recomendado) ou npm
+
+### Comandos
+
+```bash
+# Instalar dependências
+pnpm install
+
+# Executar em modo desenvolvimento
+pnpm dev
+
+# Build para produção
+pnpm build
+
+# Preview da build de produção
+pnpm preview
+
+# Verificar tipos TypeScript
+pnpm type-check
+
+# Executar linting
+pnpm lint
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🏗️ Estrutura do Projeto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  extends: [
-    // other configs...
-    // Enable lint rules for React
-    reactX.configs['recommended-typescript'],
-    // Enable lint rules for React DOM
-    reactDom.configs.recommended,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
 ```
+src/
+├── components/     # Componentes reutilizáveis
+├── pages/         # Páginas da aplicação
+├── hooks/         # Custom hooks
+├── lib/           # Utilitários e configurações
+└── assets/        # Recursos estáticos
+```
+
+## 🌐 Deploy
+
+O projeto está configurado para deploy automático no Vercel através do arquivo `vercel.json`.
+
+## 📞 Contacto
+
+**Quinta Casa do Plátano**
+- 📍 Samora Correia, Portugal
+- 📧 info@quintacasadoplatano.pt
+- 📱 926 852 863
+
+## 📄 Licença
+
+© 2024 Quinta Casa do Plátano. Todos os direitos reservados.

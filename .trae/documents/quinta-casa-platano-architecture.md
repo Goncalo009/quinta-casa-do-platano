@@ -35,75 +35,86 @@ graph TD
 
 ## 2. Descrição das Tecnologias
 
-- **Frontend**: Next.js@14 + React@18 + TypeScript + Tailwind CSS@3 + Framer Motion
-- **Backend**: Supabase (PostgreSQL, Auth, Storage)
-- **Deployment**: Vercel
-- **SEO**: Next.js built-in SEO, structured data, sitemap
-- **Analytics**: Google Analytics 4
+* **Frontend**: Next.js\@14 + React\@18 + TypeScript + Tailwind CSS\@3 + Framer Motion
+
+* **Backend**: Supabase (PostgreSQL, Auth, Storage)
+
+* **Deployment**: Vercel
+
+* **SEO**: Next.js built-in SEO, structured data, sitemap
+
+* **Analytics**: Google Analytics 4
 
 ## 3. Definições de Rotas
 
-| Rota | Propósito |
-|------|----------|
-| / | Página inicial com hero section e apresentação da quinta |
-| /sobre-nos | Página sobre a história e missão da quinta |
-| /ovelhas | Informações sobre a raça Vendéen e galeria |
-| /servicos | Lista de serviços oferecidos pela quinta |
-| /blog | Listagem de artigos do blog |
-| /blog/[slug] | Página individual de artigo do blog |
-| /blog/categoria/[categoria] | Artigos filtrados por categoria |
-| /contactos | Página de contacto com formulário e localização |
-| /sitemap.xml | Sitemap para SEO |
-| /robots.txt | Arquivo robots para crawlers |
+| Rota                         | Propósito                                                |
+| ---------------------------- | -------------------------------------------------------- |
+| /                            | Página inicial com hero section e apresentação da quinta |
+| /sobre-nos                   | Página sobre a história e missão da quinta               |
+| /ovelhas                     | Informações sobre a raça Vendéen e galeria               |
+| /servicos                    | Lista de serviços oferecidos pela quinta                 |
+| /blog                        | Listagem de artigos do blog                              |
+| /blog/\[slug]                | Página individual de artigo do blog                      |
+| /blog/categoria/\[categoria] | Artigos filtrados por categoria                          |
+| /contactos                   | Página de contacto com formulário e localização          |
+| /sitemap.xml                 | Sitemap para SEO                                         |
+| /robots.txt                  | Arquivo robots para crawlers                             |
 
 ## 4. Definições de API
 
 ### 4.1 APIs Principais
 
 **Gestão de Artigos do Blog**
+
 ```
 GET /api/blog/articles
 ```
 
 Resposta:
-| Nome do Parâmetro | Tipo | Descrição |
-|-------------------|------|----------|
-| articles | array | Lista de artigos com título, slug, resumo, data |
-| totalCount | number | Total de artigos para paginação |
+
+| Nome do Parâmetro | Tipo   | Descrição                                       |
+| ----------------- | ------ | ----------------------------------------------- |
+| articles          | array  | Lista de artigos com título, slug, resumo, data |
+| totalCount        | number | Total de artigos para paginação                 |
 
 **Envio de Formulário de Contacto**
+
 ```
 POST /api/contact
 ```
 
 Pedido:
-| Nome do Parâmetro | Tipo | Obrigatório | Descrição |
-|-------------------|------|-------------|----------|
-| name | string | true | Nome do contacto |
-| email | string | true | Email do contacto |
-| phone | string | false | Telefone do contacto |
-| message | string | true | Mensagem do contacto |
-| service | string | false | Serviço de interesse |
+
+| Nome do Parâmetro | Tipo   | Obrigatório | Descrição            |
+| ----------------- | ------ | ----------- | -------------------- |
+| name              | string | true        | Nome do contacto     |
+| email             | string | true        | Email do contacto    |
+| phone             | string | false       | Telefone do contacto |
+| message           | string | true        | Mensagem do contacto |
+| service           | string | false       | Serviço de interesse |
 
 Resposta:
-| Nome do Parâmetro | Tipo | Descrição |
-|-------------------|------|----------|
-| success | boolean | Status do envio |
-| message | string | Mensagem de confirmação |
+
+| Nome do Parâmetro | Tipo    | Descrição               |
+| ----------------- | ------- | ----------------------- |
+| success           | boolean | Status do envio         |
+| message           | string  | Mensagem de confirmação |
 
 **Pedido de Orçamento**
+
 ```
 POST /api/quote
 ```
 
 Pedido:
-| Nome do Parâmetro | Tipo | Obrigatório | Descrição |
-|-------------------|------|-------------|----------|
-| name | string | true | Nome do solicitante |
-| email | string | true | Email do solicitante |
-| service | string | true | Tipo de serviço solicitado |
-| details | string | true | Detalhes específicos do pedido |
-| quantity | number | false | Quantidade (se aplicável) |
+
+| Nome do Parâmetro | Tipo   | Obrigatório | Descrição                      |
+| ----------------- | ------ | ----------- | ------------------------------ |
+| name              | string | true        | Nome do solicitante            |
+| email             | string | true        | Email do solicitante           |
+| service           | string | true        | Tipo de serviço solicitado     |
+| details           | string | true        | Detalhes específicos do pedido |
+| quantity          | number | false       | Quantidade (se aplicável)      |
 
 ## 5. Modelo de Dados
 
@@ -168,7 +179,8 @@ erDiagram
 
 ### 5.2 Linguagem de Definição de Dados
 
-**Tabela de Artigos do Blog (blog_articles)**
+**Tabela de Artigos do Blog (blog\_articles)**
+
 ```sql
 -- criar tabela
 CREATE TABLE blog_articles (
@@ -201,7 +213,8 @@ INSERT INTO blog_articles (title, slug, content, excerpt, category, published) V
 ('A Raça Vendéen: Características e Vantagens', 'raca-vendeen-caracteristicas', 'Artigo detalhado sobre a raça Vendéen...', 'Conheça as características únicas da raça Vendéen', 'racas', true);
 ```
 
-**Tabela de Submissões de Contacto (contact_submissions)**
+**Tabela de Submissões de Contacto (contact\_submissions)**
+
 ```sql
 -- criar tabela
 CREATE TABLE contact_submissions (
@@ -223,7 +236,8 @@ GRANT INSERT ON contact_submissions TO anon;
 GRANT ALL PRIVILEGES ON contact_submissions TO authenticated;
 ```
 
-**Tabela de Pedidos de Orçamento (quote_requests)**
+**Tabela de Pedidos de Orçamento (quote\_requests)**
+
 ```sql
 -- criar tabela
 CREATE TABLE quote_requests (
@@ -247,6 +261,7 @@ GRANT ALL PRIVILEGES ON quote_requests TO authenticated;
 ```
 
 **Tabela de Serviços (services)**
+
 ```sql
 -- criar tabela
 CREATE TABLE services (
@@ -267,3 +282,4 @@ INSERT INTO services (name, description) VALUES
 ('Consultoria Técnica', 'Consultoria especializada em ovinocultura e gestão de rebanhos'),
 ('Formação', 'Cursos e workshops sobre criação de ovelhas e boas práticas');
 ```
+

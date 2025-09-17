@@ -32,8 +32,8 @@ const Header: React.FC = () => {
                 className="w-16 h-16 rounded-full object-cover"
               />
               <div>
-                <h1 className="text-sm font-bold text-forest-800">Quinta Casa do Plátano</h1>
-                <p className="text-xs text-stone-600">Criação de Ovelhas Vendéen</p>
+                <h1 className="text-xs font-bold text-forest-800 whitespace-nowrap">Quinta Casa do Plátano</h1>
+                <p className="text-[10px] text-stone-600 whitespace-nowrap">Criação de Ovelhas Vendéen</p>
               </div>
             </a>
           </div>

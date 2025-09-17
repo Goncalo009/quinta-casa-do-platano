@@ -12,3 +12,17 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* Melhorar legibilidade dos parágrafos - excluindo botões e header */
+p:not(button p):not(.btn p):not(header p) {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Responsivo para dispositivos móveis */
+@media (max-width: 768px) {
+  p:not(button p):not(.btn p):not(header p) {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
