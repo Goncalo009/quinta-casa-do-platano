@@ -127,7 +127,7 @@ const Home: React.FC = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <img 
-                  src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Portuguese%20sheep%20farm%20in%20Samora%20Correia%20with%20Vend%C3%A9en%20sheep%20grazing%20in%20green%20pastures%2C%20traditional%20farm%20buildings%2C%20rural%20landscape%2C%20peaceful%20countryside%2C%20professional%20agricultural%20photography&image_size=landscape_4_3" 
+                  src="/quintacasadoplatano.webp" 
                   alt="Quinta Casa do Plátano - Vista geral da quinta"
                   className="rounded-lg shadow-lg w-full h-80 object-cover"
                 />

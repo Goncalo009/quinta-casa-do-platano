@@ -77,7 +77,7 @@ const About: React.FC = () => {
               </div>
               <div>
                 <img 
-                  src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Historic%20Portuguese%20sheep%20farm%20buildings%20in%20Samora%20Correia%2C%20traditional%20rural%20architecture%2C%20stone%20and%20tile%20construction%2C%20countryside%20setting%2C%20vintage%20agricultural%20photography%20style&image_size=landscape_4_3" 
+                  src="/quintacasadoplatano.webp" 
                   alt="História da Quinta Casa do Plátano"
                   className="rounded-lg shadow-lg w-full h-96 object-cover"
                 />
