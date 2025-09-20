@@ -67,17 +67,29 @@ const Home: React.FC = () => {
       />
       
       {/* Hero Section */}
-      <section 
-        className="relative text-white min-h-screen max-h-screen flex items-center justify-center"
-        style={{
-          backgroundImage: `linear-gradient(135deg, rgba(34, 139, 34, 0.3) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(139, 69, 19, 0.3) 100%), url('/heroSection-Ovelha.webp')`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center center',
-          backgroundRepeat: 'no-repeat',
-          backgroundAttachment: 'fixed'
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-black/20"></div>
+      <section className="relative text-white min-h-screen max-h-screen flex items-center justify-center overflow-hidden">
+        {/* Background Image with Responsive Sources */}
+        <picture className="absolute inset-0 w-full h-full">
+          <source 
+            media="(max-width: 375px)" 
+            srcSet="/heroSection-Ovelha-mobile.webp" 
+          />
+          <source 
+            media="(max-width: 768px)" 
+            srcSet="/heroSection-Ovelha-tablet.webp" 
+          />
+          <img 
+             src="/heroSection-Ovelha-desktop.webp"
+             alt="Ovelhas Vendéen na Quinta Casa do Plátano"
+             className="w-full h-full object-cover"
+             fetchpriority="high"
+             loading="eager"
+           />
+        </picture>
+        
+        {/* Gradient Overlays */}
+         <div className="absolute inset-0 bg-gradient-to-br from-forest-900/30 via-transparent to-earth-800/30"></div>
+         <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-black/20"></div>
         <div className="relative container mx-auto px-4 h-full flex items-center justify-center">
           <div className="max-w-3xl mx-auto text-center flex flex-col justify-center items-center h-full py-8">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight text-white drop-shadow-2xl">
@@ -126,11 +138,22 @@ const Home: React.FC = () => {
             
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <img 
-                  src="/quintacasadoplatano.webp" 
-                  alt="Quinta Casa do Plátano - Vista geral da quinta"
-                  className="rounded-lg shadow-lg w-full h-80 object-cover"
-                />
+                <picture>
+                  <source 
+                    media="(max-width: 375px)" 
+                    srcSet="/quintacasadoplatano-mobile.webp" 
+                  />
+                  <source 
+                    media="(max-width: 768px)" 
+                    srcSet="/quintacasadoplatano-tablet.webp" 
+                  />
+                  <img 
+                    src="/quintacasadoplatano-desktop.webp" 
+                    alt="Quinta Casa do Plátano - Vista geral da quinta"
+                    className="rounded-lg shadow-lg w-full h-80 object-cover"
+                    loading="lazy"
+                  />
+                </picture>
               </div>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">

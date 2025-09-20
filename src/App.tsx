@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
+import ImagePreloader from './components/ImagePreloader';
 import Home from './pages/Home';
 import About from './pages/About';
 import OurSheep from './pages/OurSheep';
@@ -13,6 +14,7 @@ import './App.css';
 function App() {
   return (
     <Router>
+      <ImagePreloader />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />

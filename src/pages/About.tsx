@@ -76,11 +76,22 @@ const About: React.FC = () => {
                 </div>
               </div>
               <div>
-                <img 
-                  src="/quintacasadoplatano.webp" 
-                  alt="História da Quinta Casa do Plátano"
-                  className="rounded-lg shadow-lg w-full h-96 object-cover"
-                />
+                <picture>
+                  <source 
+                    media="(max-width: 375px)" 
+                    srcSet="/quintacasadoplatano-mobile.webp" 
+                  />
+                  <source 
+                    media="(max-width: 768px)" 
+                    srcSet="/quintacasadoplatano-tablet.webp" 
+                  />
+                  <img 
+                    src="/quintacasadoplatano-desktop.webp" 
+                    alt="História da Quinta Casa do Plátano"
+                    className="rounded-lg shadow-lg w-full h-96 object-cover"
+                    loading="lazy"
+                  />
+                </picture>
               </div>
             </div>
           </div>
