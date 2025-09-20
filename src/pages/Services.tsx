@@ -17,8 +17,8 @@ const Services: React.FC = () => {
       "@type": "Organization",
       "name": "Quinta Casa do Plátano"
     },
-    "serviceType": "Ovinocultura e Consultoria Técnica",
-    "description": "Serviços especializados em criação de ovelhas Vendéen, consultoria técnica e formação em ovinocultura",
+    "serviceType": "Ovinocultura e Criação de Ovinos",
+    "description": "Serviços especializados em criação de ovelhas Vendéen e venda de reprodutores ovinos",
     "areaServed": "Portugal",
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
@@ -36,8 +36,8 @@ const Services: React.FC = () => {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Consultoria Técnica",
-            "description": "Aconselhamento especializado em ovinocultura e gestão de rebanhos"
+            "name": "Venda de Reprodutores Ovinos",
+            "description": "Comercialização de ovelhas Vendéen de alta qualidade genética"
           }
         }
       ]
@@ -76,28 +76,6 @@ const Services: React.FC = () => {
         "Apoio técnico pós-venda em ovinocultura"
       ],
       icon: "💰"
-    },
-    {
-      title: "Consultoria em Ovinocultura",
-      description: "Consultoria técnica especializada em ovinocultura sustentável, gestão de rebanhos ovinos e otimização da produção.",
-      features: [
-        "Análise e diagnóstico de rebanhos ovinos",
-        "Planos de melhoria em ovinocultura",
-        "Formação técnica em criação de ovelhas",
-        "Acompanhamento contínuo de projetos ovinos"
-      ],
-      icon: "📊"
-    },
-    {
-      title: "Formação em Ovinocultura",
-      description: "Cursos e workshops sobre criação sustentável de ovelhas, boas práticas em ovinocultura e gestão de pastoreio.",
-      features: [
-        "Cursos teóricos e práticos de ovinocultura",
-        "Workshops especializados em ovelhas Vendéen",
-        "Certificação profissional em criação ovina",
-        "Material didático sobre pastoreio sustentável"
-      ],
-      icon: "🎓"
     }
   ];
 
@@ -135,9 +113,9 @@ const Services: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <SEO 
-        title="Serviços de Ovinocultura - Quinta Casa do Plátano | Consultoria e Formação"
-        description="Serviços especializados em ovinocultura: criação de ovelhas Vendéen, consultoria técnica, formação e workshops. Experiência de 10 anos em Samora Correia."
-        keywords="serviços ovinocultura, consultoria técnica ovinos, formação ovelhas, workshops criação, quinta casa do plátano, vendéen"
+        title="Serviços de Ovinocultura - Quinta Casa do Plátano | Criação de Ovelhas Vendéen"
+        description="Serviços especializados em ovinocultura: criação de ovelhas Vendéen e venda de reprodutores ovinos. Experiência de 5 anos em Samora Correia."
+        keywords="serviços ovinocultura, criação ovelhas vendéen, venda reprodutores ovinos, quinta casa do plátano, samora correia"
         url="https://quintacasadoplatano.pt/services"
         structuredData={servicesStructuredData}
       />
@@ -224,8 +202,6 @@ const Services: React.FC = () => {
                 <option value="">Selecione um serviço</option>
                 <option value="criacao-reproducao">Criação e Reprodução</option>
                 <option value="venda-animais">Venda de Animais</option>
-                <option value="consultoria">Consultoria Técnica</option>
-                <option value="formacao">Formação e Workshops</option>
               </select>
             </div>
             

@@ -71,9 +71,9 @@ const Privacy: React.FC = () => {
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Dados Comerciais</h3>
                 <ul className="list-disc list-inside text-gray-700 space-y-1">
-                  <li>Informações sobre consultas e pedidos de orçamento</li>
-                  <li>Histórico de transações (quando aplicável)</li>
-                  <li>Preferências de comunicação</li>
+                  <li>Informações sobre interesse em compra de animais</li>
+                <li>Preferências sobre raças e características dos animais</li>
+                <li>Histórico de comunicações e transações</li>
                 </ul>
               </div>
             </div>
@@ -89,10 +89,10 @@ const Privacy: React.FC = () => {
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Finalidades do Tratamento</h3>
                 <ul className="list-disc list-inside text-gray-700 space-y-2">
-                  <li>Responder às suas consultas e pedidos de informação</li>
-                  <li>Fornecer os nossos serviços de criação de ovelhas e consultoria</li>
-                  <li>Processar encomendas e transações</li>
-                  <li>Melhorar o nosso website e serviços</li>
+                  <li>Responder a pedidos de informação sobre animais</li>
+                  <li>Processar encomendas e vendas</li>
+                  <li>Fornecer acompanhamento técnico pós-venda</li>
+                  <li>Melhorar os nossos serviços</li>
                   <li>Enviar informações sobre os nossos serviços (com o seu consentimento)</li>
                   <li>Cumprir obrigações legais e regulamentares</li>
                 </ul>

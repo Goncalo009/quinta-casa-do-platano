@@ -9,8 +9,8 @@ const About: React.FC = () => {
     "mainEntity": {
       "@type": "Organization",
       "name": "Quinta Casa do Plátano",
-      "description": "Ovinocultura especializada com 10 anos de experiência na criação de ovelhas Vendéen",
-      "foundingDate": "2014",
+      "description": "Ovinocultura especializada com 5 anos de experiência na criação de ovelhas Vendéen",
+      "foundingDate": "2019",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Samora Correia",
@@ -23,8 +23,8 @@ const About: React.FC = () => {
   return (
     <div className="min-h-screen">
       <SEO 
-        title="Sobre Nós - Quinta Casa do Plátano | 10 Anos de Ovinocultura Especializada"
-        description="Conheça a história da Quinta Casa do Plátano, 10 anos de dedicação à criação sustentável de ovelhas Vendéen em Samora Correia. Tradição, qualidade e inovação na ovinocultura."
+        title="Sobre Nós - Quinta Casa do Plátano | 5 Anos de Ovinocultura Especializada"
+        description="Conheça a história da Quinta Casa do Plátano, 5 anos de dedicação à criação sustentável de ovelhas Vendéen em Samora Correia. Tradição, qualidade e inovação na ovinocultura."
         keywords="quinta casa do plátano, história ovinocultura, samora correia, ovelhas vendéen, criação sustentável, tradição familiar"
         url="https://quintacasadoplatano.pt/about"
         structuredData={aboutStructuredData}
@@ -38,7 +38,7 @@ const About: React.FC = () => {
               Quinta Casa do Plátano - Ovinocultura Especializada
             </h1>
             <p className="text-xl text-green-100">
-              10 anos de dedicação à criação sustentável de ovelhas Vendéen em Samora Correia
+              5 anos de dedicação à criação sustentável de ovelhas Vendéen em Samora Correia
             </p>
           </div>
         </div>
@@ -55,7 +55,7 @@ const About: React.FC = () => {
                 </h2>
                 <div className="space-y-4 text-brown text-center md:text-left">
                   <p className="text-lg">
-                    A Quinta Casa do Plátano nasceu há 10 anos do sonho de criar 
+                    A Quinta Casa do Plátano nasceu há 5 anos do sonho de criar 
                     uma exploração de ovinocultura de excelência, especializada na criação de ovelhas Vendéen.
                   </p>
                   <p>
@@ -70,8 +70,8 @@ const About: React.FC = () => {
                   </p>
                   <p>
                     Hoje, somos reconhecidos como uma referência na criação de ovelhas Vendéen 
-                    em Portugal, fornecendo reprodutores de alta qualidade genética a criadores 
-                    de ovinos de todo o país.
+                    em Portugal, fornecendo reprodutores de alta qualidade genética, focando 
+                    no bem-estar animal e na sustentabilidade.
                   </p>
                 </div>
               </div>
@@ -101,56 +101,40 @@ const About: React.FC = () => {
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="bg-forest-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Heart className="w-8 h-8 text-white" />
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
                 </div>
-                <h3 className="text-xl font-semibold text-forest-900 mb-3">
-                  Bem-estar dos Ovinos
-                </h3>
-                <p className="text-earth-700">
-                  O bem-estar das nossas ovelhas é a nossa prioridade máxima, 
-                  garantindo condições ideais de pastoreio e maneio sustentável.
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Qualidade Genética</h3>
+                <p className="text-gray-700">
+                  Seleção rigorosa de reprodutores com excelente qualidade genética e características superiores da raça Vendéen.
                 </p>
               </div>
               
-              <div className="text-center">
-                <div className="bg-forest-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Award className="w-8 h-8 text-white" />
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                  </svg>
                 </div>
-                <h3 className="text-xl font-semibold text-forest-900 mb-3">
-                  Excelência em Ovinocultura
-                </h3>
-                <p className="text-earth-700">
-                  Procuramos constantemente a excelência em todos os aspetos da nossa ovinocultura,
-                  desde a seleção genética até às práticas de pastoreio sustentável.
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Bem-estar Animal</h3>
+                <p className="text-gray-700">
+                  Compromisso total com o bem-estar dos nossos animais, proporcionando condições ideais de vida e cuidados veterinários regulares.
                 </p>
               </div>
               
-              <div className="text-center">
-                <div className="bg-forest-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="w-8 h-8 text-white" />
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
                 </div>
-                <h3 className="text-xl font-semibold text-forest-900 mb-3">
-                  Transparência
-                </h3>
-                <p className="text-earth-700">
-                  Mantemos uma relação transparente com os nossos clientes, 
-                  partilhando conhecimento e experiência.
-                </p>
-              </div>
-              
-              <div className="text-center">
-                <div className="bg-forest-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Target className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-xl font-semibold text-forest-900 mb-3">
-                  Inovação
-                </h3>
-                <p className="text-earth-700">
-                  Adotamos as melhores práticas e tecnologias para melhorar 
-                  continuamente os nossos resultados.
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Inovação</h3>
+                <p className="text-gray-700">
+                  Adotamos as melhores práticas e tecnologias para melhorar continuamente os nossos resultados.
                 </p>
               </div>
             </div>
@@ -225,7 +209,7 @@ const About: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-green-900 mb-2">
-                    2014 - Fundação da Quinta
+                    2019 - Fundação da Quinta
                   </h3>
                   <p className="text-brown">
                     Início da atividade com a aquisição dos primeiros reprodutores 
@@ -240,7 +224,7 @@ const About: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-green-900 mb-2">
-                    2017 - Expansão do Rebanho
+                    2021 - Expansão do Rebanho
                   </h3>
                   <p className="text-brown">
                     Ampliação significativa do efetivo e modernização das instalações 
@@ -255,7 +239,7 @@ const About: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-green-900 mb-2">
-                    2020 - Referência Regional
+                    2022 - Referência Regional
                   </h3>
                   <p className="text-brown">
                     Reconhecimento como uma das principais explorações de Vendéen 
@@ -270,11 +254,11 @@ const About: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-green-900 mb-2">
-                    2022 - Modernização
+                    2024 - Consolidação e Modernização
                   </h3>
                   <p className="text-brown">
                     Implementação de melhorias nas instalações e práticas de gestão 
-                    do rebanho, otimizando os resultados produtivos.
+                    do rebanho, consolidando a posição como referência na criação de Vendéen.
                   </p>
                 </div>
               </div>
@@ -306,7 +290,7 @@ const About: React.FC = () => {
                   Experiência e Dedicação
                 </h3>
                 <p className="text-brown text-lg max-w-3xl mx-auto">
-                  A nossa equipa combina 10 anos de experiência prática com formação 
+                  A nossa equipa combina anos de experiência prática com conhecimento especializado 
                   técnica especializada, garantindo os mais altos padrões de qualidade 
                   em todos os aspetos da criação animal. Cada membro da equipa partilha 
                   a paixão pela raça Vendéen e o compromisso com a excelência.

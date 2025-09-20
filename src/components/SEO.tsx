@@ -13,8 +13,8 @@ interface SEOProps {
 
 const SEO: React.FC<SEOProps> = ({
   title = 'Quinta Casa do Plátano - Criação de Ovelhas Vendéen',
-  description = 'Especialistas na criação de ovelhas da raça Vendéen em Samora Correia. Oferecemos animais de alta qualidade, consultoria técnica e serviços especializados para criadores.',
-  keywords = 'ovelhas vendéen, criação ovelhas, samora correia, quinta casa do plátano, ovinocultura, animais reprodução, consultoria técnica',
+  description = 'Especialistas na criação de ovelhas da raça Vendéen em Samora Correia. Oferecemos animais de alta qualidade e serviços especializados para criadores.',
+  keywords = 'ovelhas vendéen, criação ovelhas, samora correia, quinta casa do plátano, ovinocultura, animais reprodução, reprodutores ovinos',
   image = 'https://quintacasadoplatano.pt/heroSection-Ovelha.webp',
   url = 'https://quintacasadoplatano.pt',
   type = 'website',

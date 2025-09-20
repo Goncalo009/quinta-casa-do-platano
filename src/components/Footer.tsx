@@ -18,10 +18,8 @@ const Footer: React.FC = () => {
   ];
 
   const services = [
-    { name: 'Criação e Reprodução', href: '/services#breeding' },
-    { name: 'Venda de Animais', href: '/services#animals' },
-    { name: 'Consultoria Técnica', href: '/services#consulting' },
-    { name: 'Formação e Workshops', href: '/services#training' }
+    { name: 'Criação de Ovinos', href: '/services#breeding' },
+    { name: 'Venda de Reprodutores', href: '/services#sales' }
   ];
 
   const socialLinks = [

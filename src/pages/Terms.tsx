@@ -64,30 +64,16 @@ const Terms: React.FC = () => {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-cream-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-gray-900 mb-2">Criação e Reprodução</h3>
+                  <h3 className="font-semibold text-gray-900 mb-2">Criação e Reprodução de Ovinos</h3>
                   <p className="text-gray-700 text-sm">
-                    Criação especializada de ovelhas Vendéen com foco na qualidade genética e bem-estar animal.
+                    Serviços especializados de ovinocultura com foco na criação sustentável de ovelhas Vendéen.
                   </p>
                 </div>
                 
                 <div className="bg-cream-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-gray-900 mb-2">Venda de Animais</h3>
+                  <h3 className="font-semibold text-gray-900 mb-2">Venda de Reprodutores Ovinos</h3>
                   <p className="text-gray-700 text-sm">
-                    Comercialização de ovelhas de alta qualidade, desde crias até reprodutores selecionados.
-                  </p>
-                </div>
-                
-                <div className="bg-cream-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-gray-900 mb-2">Consultoria Técnica</h3>
-                  <p className="text-gray-700 text-sm">
-                    Serviços de consultoria especializada em ovinocultura e gestão de rebanhos.
-                  </p>
-                </div>
-                
-                <div className="bg-cream-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-gray-900 mb-2">Formação e Workshops</h3>
-                  <p className="text-gray-700 text-sm">
-                    Cursos e workshops sobre criação de ovelhas e boas práticas na ovinocultura.
+                    Comercialização de ovelhas Vendéen de alta qualidade genética, desde crias até reprodutores selecionados.
                   </p>
                 </div>
               </div>
@@ -139,8 +125,6 @@ const Terms: React.FC = () => {
                 <ul className="list-disc list-inside text-gray-700 space-y-1">
                   <li>Os reembolsos são analisados caso a caso</li>
                   <li>Para animais, aplicam-se as garantias legais de conformidade</li>
-                  <li>Serviços de consultoria não são reembolsáveis após prestação</li>
-                  <li>Workshops podem ser cancelados até 48h antes com reembolso total</li>
                 </ul>
               </div>
             </div>
@@ -161,7 +145,6 @@ const Terms: React.FC = () => {
               <ul className="list-disc list-inside text-gray-700 space-y-2">
                 <li>Não nos responsabilizamos por danos indiretos ou consequenciais</li>
                 <li>A nossa responsabilidade está limitada ao valor pago pelo serviço</li>
-                <li>Não garantimos resultados específicos em serviços de consultoria</li>
                 <li>Para animais, aplicam-se as garantias legais previstas na lei portuguesa</li>
                 <li>Não nos responsabilizamos por problemas técnicos do website</li>
               </ul>

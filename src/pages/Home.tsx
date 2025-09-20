@@ -39,8 +39,8 @@ const Home: React.FC = () => {
       answer: "A nossa quinta está localizada em Samora Correia, uma região ideal para a criação de ovinos devido ao seu clima e pastagens naturais."
     },
     {
-      question: "Oferecem serviços de consultoria técnica?",
-      answer: "Sim, oferecemos consultoria técnica especializada em ovinocultura, incluindo aconselhamento sobre reprodução, alimentação e gestão do rebanho."
+      question: "Que serviços oferecem além da venda de animais?",
+      answer: "Além da venda de reprodutores ovinos, oferecemos serviços especializados de criação e reprodução de ovelhas Vendéen, com acompanhamento técnico especializado."
     },
     {
       question: "É possível visitar a quinta?",
@@ -51,8 +51,8 @@ const Home: React.FC = () => {
       answer: "Sim, vendemos animais reprodutores de alta qualidade, todos com registo genealógico e certificados sanitários em dia."
     },
     {
-      question: "Que tipo de formação oferecem?",
-      answer: "Oferecemos workshops e formações sobre técnicas modernas de ovinocultura, gestão de pastagens e boas práticas na criação de ovinos."
+      question: "Que tipo de acompanhamento oferecem?",
+      answer: "Oferecemos acompanhamento técnico especializado na criação de ovelhas Vendéen, incluindo orientações sobre reprodução, alimentação e gestão do rebanho."
     }
   ];
 
@@ -60,8 +60,8 @@ const Home: React.FC = () => {
     <div className="min-h-screen">
       <SEO 
         title="Quinta Casa do Plátano - Criação de Ovelhas Vendéen em Samora Correia"
-        description="Especialistas na criação de ovelhas da raça Vendéen em Samora Correia. Oferecemos animais de alta qualidade, consultoria técnica e serviços especializados para criadores em Portugal."
-        keywords="ovelhas vendéen, criação ovelhas, samora correia, quinta casa do plátano, ovinocultura portugal, animais reprodução, consultoria técnica ovinos"
+        description="Especialistas na criação de ovelhas da raça Vendéen em Samora Correia. Oferecemos animais de alta qualidade e serviços especializados para criadores em Portugal."
+        keywords="ovelhas vendéen, criação ovelhas, samora correia, quinta casa do plátano, ovinocultura portugal, animais reprodução, reprodutores ovinos"
         url="https://quintacasadoplatano.pt"
         structuredData={homeStructuredData}
       />
@@ -87,7 +87,7 @@ const Home: React.FC = () => {
               Criação especializada de ovelhas Vendéen em Samora Correia
             </p>
             <p className="text-sm md:text-base mb-8 md:mb-10 text-cream-100 max-w-2xl mx-auto drop-shadow-md leading-relaxed">
-              Há mais de duas décadas dedicados à excelência na criação de ovinos, oferecendo 
+              Há 5 anos dedicados à excelência na criação de ovinos, oferecendo 
               animais de qualidade superior e serviços especializados.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center">
@@ -142,7 +142,7 @@ const Home: React.FC = () => {
                       Experiência Comprovada
                     </h3>
                     <p className="text-earth-700">
-                      10 anos de experiência na criação e melhoramento genético 
+                      5 anos de experiência na criação e melhoramento genético 
                       de ovelhas Vendéen, garantindo animais saudáveis e produtivos.
                     </p>
                   </div>
@@ -241,11 +241,11 @@ const Home: React.FC = () => {
                   <MapPin className="w-6 h-6 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-forest-900 mb-3">
-                  Consultoria Técnica
+                  Acompanhamento Técnico
                 </h3>
                 <p className="text-earth-700 mb-4">
-                  Consultoria especializada em ovinocultura, gestão de rebanhos 
-                  e otimização da produção.
+                  Acompanhamento especializado na criação de ovelhas Vendéen, 
+                  com suporte técnico personalizado para cada cliente.
                 </p>
                 <Link 
                   to="/services" 

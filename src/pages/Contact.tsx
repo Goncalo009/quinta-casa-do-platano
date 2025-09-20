@@ -155,7 +155,6 @@ const Contact: React.FC = () => {
     'Informações sobre Ovinocultura',
     'Compra de Ovelhas Vendéen',
     'Reprodutores Ovinos',
-    'Consultoria em Ovinocultura',
     'Visita à Quinta em Samora Correia',
     'Parcerias em Criação Ovina',
     'Outro'
@@ -165,8 +164,8 @@ const Contact: React.FC = () => {
     <div className="min-h-screen bg-gray-50">
       <SEO 
         title="Contacto - Quinta Casa do Plátano | Ovinocultura em Samora Correia"
-        description="Entre em contacto com a Quinta Casa do Plátano para informações sobre ovelhas Vendéen, consultoria técnica e serviços de ovinocultura em Samora Correia. Telefone: 926 852 863"
-        keywords="contacto quinta casa do plátano, ovinocultura samora correia, telefone ovelhas vendéen, consultoria ovinos portugal"
+        description="Entre em contacto com a Quinta Casa do Plátano para informações sobre ovelhas Vendéen e serviços de ovinocultura em Samora Correia. Telefone: 926 852 863"
+        keywords="contacto quinta casa do plátano, ovinocultura samora correia, telefone ovelhas vendéen, reprodutores ovinos portugal"
         url="https://quintacasadoplatano.pt/contact"
         structuredData={contactStructuredData}
       />
@@ -177,7 +176,7 @@ const Contact: React.FC = () => {
           <h1 className="text-4xl font-bold text-forest-800 mb-4">Contacte a Quinta Casa do Plátano</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Entre em contacto para saber mais sobre a nossa ovinocultura especializada em ovelhas Vendéen, 
-            reprodutores ovinos e serviços de consultoria em Samora Correia. 
+            reprodutores ovinos e serviços em Samora Correia. 
             Entre em contacto connosco através dos meios abaixo.
           </p>
         </div>
