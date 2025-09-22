@@ -65,7 +65,7 @@ const OurSheep: React.FC = () => {
 
   const sheepImages = [
     {
-      src: "/IMG-20250721-WA0002.webp",
+      src: "/IMG-20250721-WA0002 (1).webp",
       alt: "Ovelhas Vendéen pastando"
     },
     {
