@@ -1,32 +1,65 @@
 import React from 'react';
 import { Users, Award, Heart, Target, Calendar, MapPin } from 'lucide-react';
 import SEO from '../components/SEO';
+import FAQ from '../components/FAQ';
 
 const About: React.FC = () => {
   const aboutStructuredData = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
+    "name": "Sobre a Quinta Casa do Plátano",
+    "description": "5 anos de experiência na criação especializada de ovelhas Vendéen em Samora Correia",
+    "url": "https://quintacasadoplatano.pt/sobre",
     "mainEntity": {
       "@type": "Organization",
       "name": "Quinta Casa do Plátano",
-      "description": "Ovinocultura especializada com 5 anos de experiência na criação de ovelhas Vendéen",
       "foundingDate": "2019",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Samora Correia",
-        "addressCountry": "PT"
-      },
-      "specialty": "Criação de ovelhas da raça Vendéen"
+      "location": {
+        "@type": "Place",
+        "name": "Samora Correia",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Samora Correia",
+          "addressCountry": "PT"
+        }
+      }
     }
   };
+
+  const faqItems = [
+    {
+      question: "Há quantos anos a Quinta Casa do Plátano se dedica à ovinocultura?",
+      answer: "Temos 5 anos de experiência dedicados à criação especializada de ovelhas Vendéen, sempre com foco na qualidade genética e bem-estar animal."
+    },
+    {
+      question: "Por que escolheram a raça Vendéen?",
+      answer: "A raça Vendéen destaca-se pela sua excelente qualidade de carne, adaptabilidade ao clima português e características reprodutivas superiores, tornando-se ideal para a ovinocultura nacional."
+    },
+    {
+      question: "Qual é a filosofia da Quinta Casa do Plátano?",
+      answer: "A nossa filosofia baseia-se na criação sustentável, respeitando o bem-estar animal, preservando tradições e aplicando técnicas modernas para garantir a máxima qualidade dos nossos reprodutores."
+    },
+    {
+      question: "Que formação têm os responsáveis pela quinta?",
+      answer: "A nossa equipa combina anos de experiência prática com conhecimento técnico especializado em ovinocultura, garantindo os mais altos padrões de qualidade em todos os aspetos da criação."
+    },
+    {
+      question: "Como garantem a qualidade genética dos animais?",
+      answer: "Mantemos registos genealógicos rigorosos, selecionamos reprodutores com base em critérios técnicos específicos e seguimos protocolos veterinários para assegurar a saúde e qualidade genética do rebanho."
+    },
+    {
+      question: "A quinta está aberta a visitas?",
+      answer: "Sim, organizamos visitas guiadas mediante marcação prévia. É uma excelente oportunidade para conhecer as nossas instalações, os animais e compreender os nossos métodos de criação."
+    }
+  ];
 
   return (
     <div className="min-h-screen">
       <SEO 
-        title="Sobre Nós - Quinta Casa do Plátano | 5 Anos de Ovinocultura Especializada"
-        description="Conheça a história da Quinta Casa do Plátano, 5 anos de dedicação à criação sustentável de ovelhas Vendéen em Samora Correia. Tradição, qualidade e inovação na ovinocultura."
-        keywords="quinta casa do plátano, história ovinocultura, samora correia, ovelhas vendéen, criação sustentável, tradição familiar"
-        url="https://quintacasadoplatano.pt/about"
+        title="Sobre Nós | Ovinocultura Especializada Vendéen | 5 Anos Experiência | Quinta Casa do Plátano"
+        description="🏆 Conheça a Quinta Casa do Plátano: 5 anos de ovinocultura especializada em Samora Correia. Criação sustentável de ovelhas Vendéen com tradição e qualidade genética superior."
+        keywords="quinta casa do plátano história, ovinocultura especializada portugal, criação ovelhas vendéen samora correia, tradição familiar ovinos, qualidade genética reprodutores, criação sustentável ovinos"
+        url="https://quintacasadoplatano.pt/sobre"
         structuredData={aboutStructuredData}
       />
       
@@ -311,6 +344,9 @@ const About: React.FC = () => {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQ items={faqItems} title="Perguntas Frequentes sobre a Nossa Quinta" />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { MapPin, Phone, Mail, Clock, Send } from 'lucide-react';
 import SEO from '../components/SEO';
+import FAQ from '../components/FAQ';
 
 interface ContactForm {
   name: string;
@@ -19,6 +20,33 @@ interface FormErrors {
 }
 
 const Contact: React.FC = () => {
+  // FAQ items específicos para contactos
+  const faqItems = [
+    {
+      question: "Qual é a melhor forma de vos contactar?",
+      answer: "Pode contactar-nos por telefone (926 852 863) para respostas imediatas, por email (info@quintacasadoplatano.pt) ou através do formulário nesta página. Respondemos rapidamente a todos os contactos."
+    },
+    {
+      question: "Qual é o vosso horário de funcionamento?",
+      answer: "Estamos disponíveis de segunda a sábado, das 8h00 às 18h00. Para visitas à quinta, recomendamos marcação prévia para garantir a melhor experiência."
+    },
+    {
+      question: "Onde se localiza a quinta?",
+      answer: "A Quinta Casa do Plátano localiza-se em Samora Correia, Portugal. Fornecemos indicações detalhadas após confirmação da visita e temos fácil acesso pela A1 e A10."
+    },
+    {
+      question: "É necessário marcar visita prévia?",
+      answer: "Sim, recomendamos sempre marcação prévia para visitas à quinta. Isto permite-nos preparar a melhor experiência e garantir que alguém estará disponível para vos receber adequadamente."
+    },
+    {
+      question: "Respondem rapidamente aos emails?",
+      answer: "Sim, respondemos a todos os emails no prazo máximo de 24 horas durante os dias úteis. Para questões urgentes, recomendamos contacto telefónico direto."
+    },
+    {
+      question: "Fazem atendimento ao fim de semana?",
+      answer: "Aos sábados estamos disponíveis das 8h00 às 18h00. Aos domingos, apenas para emergências ou visitas previamente agendadas. Contacte-nos para agendar."
+    }
+  ];
   const contactStructuredData = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
@@ -163,10 +191,10 @@ const Contact: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <SEO 
-        title="Contacto - Quinta Casa do Plátano | Ovinocultura em Samora Correia"
-        description="Entre em contacto com a Quinta Casa do Plátano para informações sobre ovelhas Vendéen e serviços de ovinocultura em Samora Correia. Telefone: 926 852 863"
-        keywords="contacto quinta casa do plátano, ovinocultura samora correia, telefone ovelhas vendéen, reprodutores ovinos portugal"
-        url="https://quintacasadoplatano.pt/contact"
+        title="Contacto | Comprar Borregos Reprodutores Vendéen | Tel: 926 852 863 | Quinta Casa do Plátano"
+        description="📞 Contacte-nos para comprar borregos reprodutores Vendéen linha pura! Tel: 926 852 863 | Email: info@quintacasadoplatano.pt | Samora Correia, Portugal. Resposta rápida!"
+        keywords="contacto quinta casa do plátano, comprar borregos reprodutores vendéen, telefone 926 852 863, samora correia portugal, reprodutores ovinos contacto, ovinocultura portugal"
+        url="https://quintacasadoplatano.pt/contacto"
         structuredData={contactStructuredData}
       />
       
@@ -388,6 +416,12 @@ const Contact: React.FC = () => {
             </div>
           </div>
         </section>
+
+        {/* FAQ Section */}
+        <FAQ 
+          items={faqItems} 
+          title="Perguntas Frequentes sobre Contactos"
+        />
       </div>
     </div>
   );

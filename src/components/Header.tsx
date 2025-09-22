@@ -6,9 +6,10 @@ const Header: React.FC = () => {
 
   const navigation = [
     { name: 'Início', href: '/' },
-    { name: 'Sobre Nós', href: '/about' },
-    { name: 'As Nossas Ovelhas', href: '/our-sheep' },
-    { name: 'Serviços', href: '/services' }
+    { name: 'Sobre Nós', href: '/sobre' },
+    { name: 'As Nossas Ovelhas', href: '/as-nossas-ovelhas' },
+    { name: 'Venda de Borregos', href: '/venda-de-borregos' },
+    { name: 'Serviços', href: '/servicos' }
   ];
 
   const toggleMenu = () => {
@@ -54,7 +55,7 @@ const Header: React.FC = () => {
           {/* CTA Button */}
           <div className="hidden lg:block">
             <a
-              href="/contact"
+              href="/contacto"
               className="bg-gold-500 hover:bg-gold-600 text-forest-900 px-6 py-2 rounded-lg font-medium transition-colors duration-200"
             >
               Contactar
@@ -89,7 +90,7 @@ const Header: React.FC = () => {
               ))}
               <div className="pt-4 border-t border-gray-200">
                 <a
-                  href="/contact"
+                  href="/contacto"
                   className="block bg-gold-500 hover:bg-gold-600 text-forest-900 px-6 py-3 rounded-lg font-medium text-center transition-colors duration-200"
                   onClick={() => setIsMenuOpen(false)}
                 >

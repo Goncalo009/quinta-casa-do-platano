@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import SEO from '../components/SEO';
+import FAQ from '../components/FAQ';
 
 interface QuoteFormData {
   name: string;
@@ -53,6 +54,34 @@ const Services: React.FC = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitMessage, setSubmitMessage] = useState('');
+
+  // FAQ items específicos para serviços
+  const faqItems = [
+    {
+      question: "Que tipos de serviços de ovinocultura oferecem?",
+      answer: "Oferecemos criação e reprodução de ovinos da raça Vendéen, venda de reprodutores de alta qualidade genética, acompanhamento veterinário especializado e programas de melhoramento genético."
+    },
+    {
+      question: "Como posso adquirir ovelhas Vendéen da vossa quinta?",
+      answer: "Pode contactar-nos através do formulário nesta página ou por telefone. Oferecemos ovelhas de diferentes idades, desde crias até reprodutores adultos, todos com certificação de origem."
+    },
+    {
+      question: "Que garantias oferecem na compra de reprodutores?",
+      answer: "Todos os nossos reprodutores vêm com garantia de saúde, certificação genética, registos genealógicos completos e apoio técnico pós-venda para garantir o sucesso da vossa ovinocultura."
+    },
+    {
+      question: "Fazem entrega dos animais?",
+      answer: "Sim, organizamos o transporte dos animais de forma segura e em conformidade com todas as normas de bem-estar animal. O custo de transporte é calculado conforme a distância."
+    },
+    {
+      question: "Oferecem consultoria em ovinocultura?",
+      answer: "Sim, prestamos serviços de consultoria técnica em ovinocultura, incluindo planeamento de instalações, programas alimentares, maneio reprodutivo e estratégias de melhoramento genético."
+    },
+    {
+      question: "Qual é o melhor período para adquirir reprodutores?",
+      answer: "O período ideal varia conforme os objetivos. Para reprodução, recomendamos a primavera. Para engorda, o outono é preferível. Contacte-nos para aconselhamento personalizado."
+    }
+  ];
 
   const services = [
     {
@@ -113,10 +142,10 @@ const Services: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <SEO 
-        title="Serviços de Ovinocultura - Quinta Casa do Plátano | Criação de Ovelhas Vendéen"
-        description="Serviços especializados em ovinocultura: criação de ovelhas Vendéen e venda de reprodutores ovinos. Experiência de 5 anos em Samora Correia."
-        keywords="serviços ovinocultura, criação ovelhas vendéen, venda reprodutores ovinos, quinta casa do plátano, samora correia"
-        url="https://quintacasadoplatano.pt/services"
+        title="Serviços Ovinocultura | Venda Reprodutores Ovinos Vendéen | Quinta Casa do Plátano"
+        description="🐑 Serviços especializados: criação ovelhas Vendéen, venda reprodutores ovinos certificados, acompanhamento técnico. 5 anos experiência Samora Correia. Orçamento grátis!"
+        keywords="serviços ovinocultura portugal, venda reprodutores ovinos vendéen, criação ovelhas especializadas, acompanhamento técnico ovinos, quinta casa do plátano serviços, melhoramento genético ovinos"
+        url="https://quintacasadoplatano.pt/servicos"
         structuredData={servicesStructuredData}
       />
       
@@ -260,6 +289,9 @@ const Services: React.FC = () => {
             )}
           </form>
         </section>
+
+        {/* FAQ Section */}
+        <FAQ items={faqItems} title="Perguntas Frequentes sobre os Nossos Serviços" />
       </div>
     </div>
   );

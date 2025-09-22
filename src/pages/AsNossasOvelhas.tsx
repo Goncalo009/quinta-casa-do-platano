@@ -1,21 +1,66 @@
 import React from 'react';
 import SEO from '../components/SEO';
+import FAQ from '../components/FAQ';
 
 const OurSheep: React.FC = () => {
+  // FAQ items específicos sobre as ovelhas
+  const faqItems = [
+    {
+      question: "Que características têm as ovelhas Vendéen?",
+      answer: "As ovelhas Vendéen são originárias da França, conhecidas pela sua rusticidade, boa adaptação ao clima português, excelente fertilidade e qualidade da carne. São animais de porte médio com boa capacidade maternal."
+    },
+    {
+      question: "Quantas ovelhas têm na quinta?",
+      answer: "Mantemos um rebanho selecionado de ovelhas Vendéen, todas com registo genealógico. O número varia conforme a época do ano e os nascimentos, mas focamos na qualidade em vez da quantidade."
+    },
+    {
+      question: "As ovelhas estão sempre no campo?",
+      answer: "As nossas ovelhas beneficiam de um sistema misto, com acesso a pastagens naturais e instalações adequadas para proteção. Seguimos práticas de bem-estar animal e pastoreio sustentável."
+    },
+    {
+      question: "Como garantem a qualidade genética?",
+      answer: "Todos os nossos reprodutores são selecionados criteriosamente, com registo genealógico completo. Fazemos acompanhamento veterinário regular e seguimos programas de melhoramento genético."
+    },
+    {
+      question: "É possível ver as ovelhas antes de comprar?",
+      answer: "Sim, encorajamos visitas à quinta para conhecer os animais e as instalações. Marcamos visitas mediante contacto prévio para garantir a melhor experiência."
+    },
+    {
+      question: "Que cuidados têm com o bem-estar animal?",
+      answer: "O bem-estar animal é prioritário. Oferecemos alimentação adequada, abrigo, cuidados veterinários preventivos e espaço suficiente para comportamentos naturais das ovelhas."
+    }
+  ];
   const sheepStructuredData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "As Nossas Ovelhas Vendéen",
     "description": "Galeria das nossas ovelhas da raça Vendéen criadas na Quinta Casa do Plátano",
-    "mainEntity": {
-      "@type": "LivestockBreed",
-      "name": "Ovelhas Vendéen",
-      "description": "Raça ovina francesa conhecida pela sua rusticidade e qualidade de carne",
-      "breedingOrganization": {
-        "@type": "Organization",
-        "name": "Quinta Casa do Plátano"
+    "mainEntity": [
+      {
+        "@type": "LivestockBreed",
+        "name": "Ovelhas Vendéen",
+        "description": "Raça ovina francesa conhecida pela sua rusticidade e qualidade de carne",
+        "breedingOrganization": {
+          "@type": "Organization",
+          "name": "Quinta Casa do Plátano"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "Reprodutores Vendéen",
+        "description": "Reprodutores ovinos da raça Vendéen com registo genealógico",
+        "category": "Animais de Criação",
+        "brand": {
+          "@type": "Brand",
+          "name": "Quinta Casa do Plátano"
+        },
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "priceCurrency": "EUR"
+        }
       }
-    }
+    ]
   };
 
   const sheepImages = [
@@ -163,11 +208,14 @@ const OurSheep: React.FC = () => {
               <div className="text-gray-600">Crias por Ano</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <div className="text-3xl font-bold text-green-800 mb-2">3</div>
+              <div className="text-3xl font-bold text-green-800 mb-2">5</div>
               <div className="text-gray-600">Anos de Experiência</div>
             </div>
           </div>
         </section>
+
+        {/* FAQ Section */}
+        <FAQ items={faqItems} title="Perguntas Frequentes sobre as Nossas Ovelhas" />
       </div>
     </div>
   );

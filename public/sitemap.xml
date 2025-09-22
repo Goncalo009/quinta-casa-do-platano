@@ -7,25 +7,31 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://quintacasadoplatano.pt/about</loc>
+    <loc>https://quintacasadoplatano.pt/sobre</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quintacasadoplatano.pt/our-sheep</loc>
+    <loc>https://quintacasadoplatano.pt/as-nossas-ovelhas</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://quintacasadoplatano.pt/services</loc>
+    <loc>https://quintacasadoplatano.pt/venda-de-borregos</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://quintacasadoplatano.pt/servicos</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quintacasadoplatano.pt/contact</loc>
+    <loc>https://quintacasadoplatano.pt/contacto</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

@@ -6,20 +6,20 @@ const Footer: React.FC = () => {
 
   const quickLinks = [
     { name: 'Início', href: '/' },
-    { name: 'Sobre Nós', href: '/about' },
-    { name: 'As Nossas Ovelhas', href: '/our-sheep' },
-    { name: 'Serviços', href: '/services' }
+    { name: 'Sobre Nós', href: '/sobre' },
+    { name: 'As Nossas Ovelhas', href: '/as-nossas-ovelhas' },
+    { name: 'Serviços', href: '/servicos' }
   ];
 
   const resources = [
-    { name: 'Contacto', href: '/contact' },
-    { name: 'Política de Privacidade', href: '/privacy' },
-    { name: 'Termos de Serviço', href: '/terms' }
+    { name: 'Contacto', href: '/contacto' },
+    { name: 'Política de Privacidade', href: '/privacidade' },
+    { name: 'Termos de Serviço', href: '/termos' }
   ];
 
   const services = [
-    { name: 'Criação de Ovinos', href: '/services#breeding' },
-    { name: 'Venda de Reprodutores', href: '/services#sales' }
+    { name: 'Criação de Ovinos', href: '/servicos#breeding' },
+    { name: 'Venda de Reprodutores', href: '/servicos#sales' }
   ];
 
   const socialLinks = [
@@ -47,7 +47,21 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1 text-center md:text-left">
-            <div className="flex items-center justify-center md:justify-start space-x-3 mb-6">
+            {/* Mobile Layout - Image on top */}
+            <div className="flex flex-col items-center md:hidden mb-6">
+              <img 
+                src="/logoOficial.webp" 
+                alt="Quinta Casa do Plátano" 
+                className="w-40 h-40 rounded-full object-cover mb-4"
+              />
+              <div>
+                <h3 className="text-xl font-bold">Quinta Casa do Plátano</h3>
+                <p className="text-cream-300 text-sm">Criação de Ovelhas Vendéen</p>
+              </div>
+            </div>
+            
+            {/* Desktop Layout - Image beside text */}
+            <div className="hidden md:flex items-center justify-start space-x-3 mb-6">
               <img 
                 src="/logoOficial.webp" 
                 alt="Quinta Casa do Plátano" 

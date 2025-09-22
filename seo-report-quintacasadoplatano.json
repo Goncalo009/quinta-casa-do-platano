@@ -1,0 +1,362 @@
+{
+  "summary": {
+    "domain": "quintacasadoplatano.pt",
+    "audit_date": "2024-12-19",
+    "critical_issues": "O site tem uma base SEO sólida mas está a perder oportunidades comerciais importantes. Faltam páginas comerciais essenciais (/venda-de-borregos, /raca-vendeen), não há Google Analytics implementado e várias imagens são demasiado pesadas (>500KB).",
+    "immediate_actions": [
+      "Implementar Google Analytics/GA4 - CRÍTICO para tracking",
+      "Criar página /venda-de-borregos - ALTO impacto comercial",
+      "Optimizar imagens >500KB - ALTO impacto na performance"
+    ]
+  },
+  "scores": {
+    "overall": 72,
+    "on_page": 85,
+    "technical": 90,
+    "performance": 45,
+    "local_seo": 70,
+    "content_authority": 60
+  },
+  "issues": [
+    {
+      "title": "Google Analytics/GA4 Ausente",
+      "description": "Não foi detectado Google Analytics ou GA4 no site",
+      "severity": "CRÍTICO",
+      "seo_impact": 9,
+      "effort": "Rápido (<1h)",
+      "category": "tracking",
+      "fix_location": "front-end"
+    },
+    {
+      "title": "Google Search Console Verification Ausente",
+      "description": "Meta tag de verificação GSC não encontrada",
+      "severity": "CRÍTICO",
+      "seo_impact": 8,
+      "effort": "Rápido (<1h)",
+      "category": "technical",
+      "fix_location": "front-end"
+    },
+    {
+      "title": "Imagens Demasiado Pesadas",
+      "description": "12 imagens >150KB, algumas >500KB (heroSection-Ovelha.webp: 842KB)",
+      "severity": "ALTO",
+      "seo_impact": 8,
+      "effort": "Médio (2-4h)",
+      "category": "performance",
+      "fix_location": "servidor",
+      "heavy_images": [
+        {"name": "heroSection-Ovelha.webp", "size": "842.45KB"},
+        {"name": "heroSection-Ovelha-optimized.webp", "size": "693.19KB"},
+        {"name": "IMG-20250721-WA0008.webp", "size": "549.54KB"},
+        {"name": "IMG-20250721-WA0007.webp", "size": "531.11KB"}
+      ]
+    },
+    {
+      "title": "Páginas Comerciais Essenciais em Falta",
+      "description": "Faltam páginas comerciais chave para conversão",
+      "severity": "ALTO",
+      "seo_impact": 9,
+      "effort": "Alto (1-3 dias)",
+      "category": "content",
+      "fix_location": "front-end",
+      "missing_pages": ["/venda-de-borregos", "/raca-vendeen", "/faq-borregos"]
+    },
+    {
+      "title": "Schema Product Ausente",
+      "description": "Não há schema markup para produtos (borregos)",
+      "severity": "ALTO",
+      "seo_impact": 7,
+      "effort": "Médio (2-4h)",
+      "category": "structured_data",
+      "fix_location": "front-end"
+    },
+    {
+      "title": "URLs em Inglês",
+      "description": "URLs como /about, /our-sheep, /services em inglês",
+      "severity": "MÉDIO",
+      "seo_impact": 6,
+      "effort": "Alto (1-3 dias)",
+      "category": "technical",
+      "fix_location": "back-end"
+    },
+    {
+      "title": "Meta Descriptions Genéricas",
+      "description": "Algumas meta descriptions podem ser mais comerciais",
+      "severity": "MÉDIO",
+      "seo_impact": 5,
+      "effort": "Rápido (<1h)",
+      "category": "on_page",
+      "fix_location": "conteúdo"
+    },
+    {
+      "title": "Breadcrumbs Ausentes",
+      "description": "Não há breadcrumbs implementados",
+      "severity": "BAIXO",
+      "seo_impact": 4,
+      "effort": "Médio (2-4h)",
+      "category": "technical",
+      "fix_location": "front-end"
+    }
+  ],
+  "quick_fixes": [
+    {
+      "title": "Implementar Google Analytics",
+      "time": "30min",
+      "impact": 9,
+      "priority": 1
+    },
+    {
+      "title": "Adicionar GSC verification",
+      "time": "15min",
+      "impact": 8,
+      "priority": 2
+    },
+    {
+      "title": "Optimizar 5 imagens mais pesadas",
+      "time": "2h",
+      "impact": 8,
+      "priority": 3
+    },
+    {
+      "title": "Melhorar meta description homepage",
+      "time": "15min",
+      "impact": 6,
+      "priority": 4
+    },
+    {
+      "title": "Adicionar schema Product básico",
+      "time": "1h",
+      "impact": 7,
+      "priority": 5
+    },
+    {
+      "title": "Criar página /venda-de-borregos básica",
+      "time": "3h",
+      "impact": 9,
+      "priority": 6
+    }
+  ],
+  "missing_pages": [
+    {
+      "slug": "/venda-de-borregos",
+      "h1": "Venda de Borregos Vendéen Puro - Quinta Casa do Plátano",
+      "h2_suggestions": [
+        "Borregos Vendéen Disponíveis para Venda",
+        "Preços e Condições de Venda",
+        "Certificações e Registo Genealógico"
+      ],
+      "meta_title": "Venda de Borregos Vendéen Puro | Quinta Casa do Plátano",
+      "meta_description": "Borregos Vendéen de linha pura com registo genealógico. Venda directa do produtor em Samora Correia. Contacte 926 852 863 para disponibilidade."
+    },
+    {
+      "slug": "/raca-vendeen",
+      "h1": "Raça Ovina Vendéen - Características e Vantagens",
+      "h2_suggestions": [
+        "História e Origem da Raça Vendéen",
+        "Características Físicas e Produtivas",
+        "Vantagens da Criação de Vendéen em Portugal"
+      ],
+      "meta_title": "Raça Ovina Vendéen - Características | Quinta Casa do Plátano",
+      "meta_description": "Conheça a raça ovina Vendéen: características, vantagens produtivas e adaptação ao clima português. Especialistas em Vendéen há 5 anos."
+    },
+    {
+      "slug": "/faq-borregos",
+      "h1": "Perguntas Frequentes sobre Borregos Vendéen",
+      "h2_suggestions": [
+        "Sobre a Compra de Borregos",
+        "Cuidados e Maneio",
+        "Transporte e Entrega"
+      ],
+      "meta_title": "FAQ Borregos Vendéen | Quinta Casa do Plátano",
+      "meta_description": "Respostas às perguntas mais frequentes sobre compra, cuidados e transporte de borregos Vendéen. Especialistas há 5 anos."
+    }
+  ],
+  "snippets": {
+    "meta_tags_homepage": {
+      "serp_optimized": {
+        "title": "Venda de Borregos Vendéen Puro | Quinta Casa do Plátano",
+        "description": "Produtores de borregos Vendéen (linha pura, registo genealógico). Venda e envio a partir de Samora Correia — contacto 926 852 863."
+      },
+      "commercial": {
+        "title": "Quinta Casa do Plátano - Criadores de Borregos Vendéen Premium em Samora Correia",
+        "description": "5 anos de experiência na criação de borregos Vendéen de elite. Linha pura, certificados, entrega em Portugal. Visite-nos em Samora Correia!"
+      }
+    },
+    "json_ld_local_business": {
+      "@context": "https://schema.org",
+      "@type": "Farm",
+      "name": "Quinta Casa do Plátano",
+      "url": "https://quintacasadoplatano.pt",
+      "telephone": "+351926852863",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Samora Correia",
+        "addressLocality": "Samora Correia",
+        "addressRegion": "Ribatejo",
+        "postalCode": "2135",
+        "addressCountry": "PT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.9167,
+        "longitude": -8.8167
+      },
+      "openingHours": "Mo-Sa 08:00-18:00",
+      "priceRange": "€€",
+      "description": "Criação especializada de ovelhas Vendéen em Samora Correia",
+      "areaServed": "Portugal",
+      "sameAs": []
+    },
+    "json_ld_product": {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Borrego Vendéen Puro",
+      "description": "Borrego da raça Vendéen com registo genealógico",
+      "brand": {
+        "@type": "Brand",
+        "name": "Quinta Casa do Plátano"
+      },
+      "category": "Ovinos",
+      "breed": "Vendéen",
+      "registrationNumber": "PT-VENDEEN-2024-XXX",
+      "age": "6 meses",
+      "weight": "25-30 kg",
+      "sex": "Macho/Fêmea",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "priceCurrency": "EUR",
+        "seller": {
+          "@type": "Organization",
+          "name": "Quinta Casa do Plátano"
+        }
+      }
+    },
+    "google_analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n  gtag('config', 'GA_MEASUREMENT_ID');\n</script>",
+    "gsc_verification": "<meta name=\"google-site-verification\" content=\"VERIFICATION_CODE\" />",
+    "canonical_tag": "<link rel=\"canonical\" href=\"https://quintacasadoplatano.pt/\" />"
+  },
+  "blog_topics": [
+    {
+      "title": "Como Escolher Borregos Vendéen para Criação em Portugal",
+      "keyword": "borregos vendéen portugal",
+      "intent": "Informacional/Comercial"
+    },
+    {
+      "title": "Vantagens da Raça Ovina Vendéen no Clima Português",
+      "keyword": "raça ovina vendéen portugal",
+      "intent": "Informacional"
+    },
+    {
+      "title": "Preços de Borregos Vendéen em 2024 - Guia Completo",
+      "keyword": "preço borregos vendéen",
+      "intent": "Comercial"
+    },
+    {
+      "title": "Criação de Ovelhas em Samora Correia - Condições Ideais",
+      "keyword": "criação ovelhas samora correia",
+      "intent": "Local SEO"
+    },
+    {
+      "title": "Registo Genealógico de Ovinos - Importância e Processo",
+      "keyword": "registo genealógico ovinos",
+      "intent": "Informacional"
+    },
+    {
+      "title": "Alimentação de Ovelhas Vendéen - Guia Prático",
+      "keyword": "alimentação ovelhas vendéen",
+      "intent": "Informacional"
+    },
+    {
+      "title": "Reprodução de Ovelhas Vendéen - Melhores Práticas",
+      "keyword": "reprodução ovelhas vendéen",
+      "intent": "Informacional"
+    },
+    {
+      "title": "Ovinocultura Sustentável no Ribatejo - Casos de Sucesso",
+      "keyword": "ovinocultura ribatejo",
+      "intent": "Local SEO"
+    },
+    {
+      "title": "Diferenças entre Raças Ovinas Portuguesas e Francesas",
+      "keyword": "raças ovinas portugal",
+      "intent": "Informacional"
+    },
+    {
+      "title": "Investir em Ovinocultura - Retorno e Viabilidade",
+      "keyword": "investir ovinocultura portugal",
+      "intent": "Comercial"
+    },
+    {
+      "title": "Transporte de Ovinos - Regulamentação e Boas Práticas",
+      "keyword": "transporte ovinos portugal",
+      "intent": "Informacional"
+    },
+    {
+      "title": "Quinta Casa do Plátano - 5 Anos de Inovação na Ovinocultura",
+      "keyword": "quinta casa do plátano",
+      "intent": "Branding"
+    }
+  ],
+  "pages_analyzed": [
+    {
+      "url": "/",
+      "title": "Quinta Casa do Plátano - Criação de Ovelhas Vendéen em Samora Correia",
+      "meta_description": "Quinta Casa do Plátano: 5 anos de experiência na criação especializada de ovelhas Vendéen...",
+      "h1": "Quinta Casa do Plátano",
+      "status": "✅"
+    },
+    {
+      "url": "/about",
+      "title": "Sobre Nós - Quinta Casa do Plátano | 5 Anos de Ovinocultura Especializada",
+      "meta_description": "Conheça a história da Quinta Casa do Plátano, 5 anos de dedicação à criação sustentável...",
+      "h1": "Quinta Casa do Plátano - Ovinocultura Especializada",
+      "status": "✅"
+    },
+    {
+      "url": "/our-sheep",
+      "title": "As Nossas Ovelhas Vendéen - Quinta Casa do Plátano | Galeria e Características",
+      "meta_description": "Conheça as nossas ovelhas da raça Vendéen na Quinta Casa do Plátano...",
+      "h1": "As Nossas Ovelhas",
+      "status": "✅"
+    },
+    {
+      "url": "/contact",
+      "title": "Contactos - Quinta Casa do Plátano",
+      "meta_description": "Entre em contacto connosco...",
+      "h1": "Contacte-nos",
+      "status": "✅"
+    },
+    {
+      "url": "/services",
+      "title": "Serviços - Quinta Casa do Plátano",
+      "meta_description": "Serviços especializados...",
+      "h1": "Os Nossos Serviços",
+      "status": "✅"
+    }
+  ],
+  "technical_analysis": {
+    "robots_txt": "✅ Presente e bem configurado",
+    "sitemap_xml": "✅ Presente mas precisa de expansão",
+    "https": "✅ Implementado",
+    "canonical_tags": "✅ Implementados via SEO component",
+    "structured_data": "✅ LocalBusiness implementado, falta Product schema",
+    "opengraph": "✅ Implementado",
+    "twitter_cards": "✅ Implementado",
+    "google_analytics": "❌ Não implementado",
+    "gsc_verification": "❌ Não implementado"
+  },
+  "performance_issues": {
+    "large_images": 12,
+    "largest_image": "heroSection-Ovelha.webp (842.45KB)",
+    "images_over_500kb": 4,
+    "total_image_optimization_needed": "~3MB de redução possível"
+  },
+  "local_seo": {
+    "nap_consistency": "✅ Consistente",
+    "local_schema": "✅ Implementado",
+    "geo_tags": "✅ Implementados",
+    "local_keywords": "Parcialmente optimizado",
+    "google_my_business": "Não verificado (limitação de acesso)"
+  }
+}

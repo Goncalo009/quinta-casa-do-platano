@@ -59,9 +59,9 @@ const Home: React.FC = () => {
   return (
     <div className="min-h-screen">
       <SEO 
-        title="Quinta Casa do Plátano - Criação de Ovelhas Vendéen em Samora Correia"
-        description="Especialistas na criação de ovelhas da raça Vendéen em Samora Correia. Oferecemos animais de alta qualidade e serviços especializados para criadores em Portugal."
-        keywords="ovelhas vendéen, criação ovelhas, samora correia, quinta casa do plátano, ovinocultura portugal, animais reprodução, reprodutores ovinos"
+        title="Venda Borregos Reprodutores Vendéen | Linha Pura Registo Genealógico | Quinta Casa do Plátano"
+        description="🐑 Venda de borregos reprodutores Vendéen linha pura com registo genealógico. Ovinocultura especializada em Samora Correia. ☎️ 926 852 863. Entrega Portugal."
+        keywords="venda borregos reprodutores, borregos vendéen linha pura, reprodutores ovinos portugal, registo genealógico ovinos, ovinocultura samora correia, quinta casa do plátano, criação ovelhas vendéen, reprodutores ovinos certificados"
         url="https://quintacasadoplatano.pt"
         structuredData={homeStructuredData}
       />
@@ -82,39 +82,45 @@ const Home: React.FC = () => {
              src="/heroSection-Ovelha-desktop.webp"
              alt="Ovelhas Vendéen na Quinta Casa do Plátano"
              className="w-full h-full object-cover"
+             style={{ 
+               objectPosition: 'center 20%',
+               transform: 'scale(1.1)'
+             }}
              fetchpriority="high"
              loading="eager"
            />
         </picture>
         
-        {/* Gradient Overlays */}
-         <div className="absolute inset-0 bg-gradient-to-br from-forest-900/30 via-transparent to-earth-800/30"></div>
-         <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-black/20"></div>
+        {/* Enhanced Gradient Overlays for better text readability */}
+        <div className="absolute inset-0 bg-gradient-to-br from-black/40 via-black/20 to-black/50"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/30"></div>
+        
+        {/* Content Container with improved mobile spacing */}
         <div className="relative container mx-auto px-4 h-full flex items-center justify-center">
-          <div className="max-w-3xl mx-auto text-center flex flex-col justify-center items-center h-full py-8">
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight text-white drop-shadow-2xl">
+          <div className="max-w-4xl mx-auto text-center flex flex-col justify-center items-center h-full py-12 md:py-8">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 md:mb-6 leading-tight text-white drop-shadow-2xl">
               Quinta Casa do Plátano
             </h1>
-            <p className="text-lg md:text-xl lg:text-2xl mb-6 md:mb-8 text-gold-300 drop-shadow-lg font-medium">
+            <p className="text-xl md:text-xl lg:text-2xl mb-8 md:mb-8 text-white drop-shadow-lg font-medium max-w-3xl">
               Criação especializada de ovelhas Vendéen em Samora Correia
             </p>
-            <p className="text-sm md:text-base mb-8 md:mb-10 text-cream-100 max-w-2xl mx-auto drop-shadow-md leading-relaxed">
+            <p className="text-base md:text-base mb-10 md:mb-10 text-white/90 max-w-2xl mx-auto drop-shadow-md leading-relaxed">
               Há 5 anos dedicados à excelência na criação de ovinos, oferecendo 
               animais de qualidade superior e serviços especializados.
             </p>
-            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 md:gap-4 justify-center w-full max-w-md sm:max-w-none">
               <Link 
-                to="/about" 
-                className="bg-gradient-to-r from-gold-500 to-gold-600 text-white px-6 md:px-8 py-3 md:py-4 rounded-lg font-semibold hover:from-gold-600 hover:to-gold-700 transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105"
+                to="/sobre" 
+                className="bg-gradient-to-r from-gold-500 to-gold-600 text-white px-8 md:px-8 py-4 md:py-4 rounded-lg font-semibold hover:from-gold-600 hover:to-gold-700 transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105 text-base"
               >
                 Conheça Nossa História
-                <ArrowRight className="w-4 h-4 md:w-5 md:h-5" />
+                <ArrowRight className="w-5 h-5 md:w-5 md:h-5" />
               </Link>
               <Link 
-                to="/contact" 
-                className="border-2 border-cream-100 bg-white/10 backdrop-blur-sm text-cream-100 px-6 md:px-8 py-3 md:py-4 rounded-lg font-semibold hover:bg-cream-100 hover:text-forest-900 transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105"
+                to="/contacto" 
+                className="border-2 border-white/80 bg-white/15 backdrop-blur-sm text-white px-8 md:px-8 py-4 md:py-4 rounded-lg font-semibold hover:bg-white hover:text-forest-900 transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105 text-base"
               >
-                <Phone className="w-4 h-4 md:w-5 md:h-5" />
+                <Phone className="w-5 h-5 md:w-5 md:h-5" />
                 Contactar
               </Link>
             </div>
@@ -233,7 +239,7 @@ const Home: React.FC = () => {
                   bem-estar animal e práticas sustentáveis de ovinocultura.
                 </p>
                 <Link 
-                  to="/services" 
+                  to="/sobre" 
                   className="text-forest-900 font-semibold hover:text-gold-600 flex items-center gap-2"
                 >
                   Saber mais <ArrowRight className="w-4 h-4" />
@@ -252,7 +258,7 @@ const Home: React.FC = () => {
                   crias até reprodutores selecionados.
                 </p>
                 <Link 
-                  to="/services" 
+                  to="/servicos" 
                   className="text-forest-900 font-semibold hover:text-gold-600 flex items-center gap-2"
                 >
                   Saber mais <ArrowRight className="w-4 h-4" />
@@ -281,7 +287,7 @@ const Home: React.FC = () => {
             
             <div className="text-center mt-12">
               <Link 
-                to="/services" 
+                to="/servicos" 
                 className="bg-forest-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-gold-600 transition-colors duration-300 inline-flex items-center gap-2 btn-hover"
               >
                 Ver Todos os Serviços
@@ -305,7 +311,7 @@ const Home: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
-                to="/contact" 
+                to="/contacto" 
                 className="bg-gold-500 text-forest-900 px-8 py-4 rounded-lg font-semibold hover:bg-gold-400 transition-all duration-300 flex items-center justify-center gap-2 btn-hover"
               >
                 <Phone className="w-5 h-5" />
