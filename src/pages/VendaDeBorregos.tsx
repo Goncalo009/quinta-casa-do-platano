@@ -181,32 +181,32 @@ const VendaDeBorregos: React.FC = () => {
               Características da Raça Vendéen
             </h2>
             
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-xl font-bold mb-4 text-forest-900">Vantagens Produtivas</h3>
-                <ul className="space-y-3 text-gray-700">
+            <div className="grid md:grid-cols-2 gap-8 justify-items-center">
+              <div className="w-full max-w-md text-center">
+                <h3 className="text-xl font-bold mb-4 text-forest-900 text-center">Vantagens Produtivas</h3>
+                <ul className="space-y-3 text-gray-700 text-left inline-block">
                   <li className="flex items-start">
-                    <Star className="w-5 h-5 text-gold-500 mr-2 mt-0.5 flex-shrink-0" />
+                    <Award className="w-5 h-5 text-gold-500 mr-2 mt-0.5 flex-shrink-0" />
                     <span>Excelente conversão alimentar</span>
                   </li>
                   <li className="flex items-start">
-                    <Star className="w-5 h-5 text-gold-500 mr-2 mt-0.5 flex-shrink-0" />
+                    <Award className="w-5 h-5 text-gold-500 mr-2 mt-0.5 flex-shrink-0" />
                     <span>Rápido crescimento</span>
                   </li>
                   <li className="flex items-start">
-                    <Star className="w-5 h-5 text-gold-500 mr-2 mt-0.5 flex-shrink-0" />
+                    <Award className="w-5 h-5 text-gold-500 mr-2 mt-0.5 flex-shrink-0" />
                     <span>Carne de qualidade superior</span>
                   </li>
                   <li className="flex items-start">
-                    <Star className="w-5 h-5 text-gold-500 mr-2 mt-0.5 flex-shrink-0" />
+                    <Award className="w-5 h-5 text-gold-500 mr-2 mt-0.5 flex-shrink-0" />
                     <span>Adaptabilidade ao clima português</span>
                   </li>
                 </ul>
               </div>
               
-              <div>
-                <h3 className="text-xl font-bold mb-4 text-forest-900">Características Físicas</h3>
-                <ul className="space-y-3 text-gray-700">
+              <div className="w-full max-w-md text-center">
+                <h3 className="text-xl font-bold mb-4 text-forest-900 text-center">Características Físicas</h3>
+                <ul className="space-y-3 text-gray-700 text-left inline-block">
                   <li className="flex items-start">
                     <Award className="w-5 h-5 text-gold-500 mr-2 mt-0.5 flex-shrink-0" />
                     <span>Porte médio a grande</span>

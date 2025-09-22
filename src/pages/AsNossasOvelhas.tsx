@@ -117,10 +117,10 @@ const OurSheep: React.FC = () => {
         
         {/* Vendéen Breed Information */}
         <section className="mb-12">
-          <h2 className="text-3xl font-semibold text-green-700 mb-6 text-center md:text-left">A Raça Vendéen</h2>
-          <div className="grid lg:grid-cols-2 gap-8">
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-2xl font-semibold text-green-800 mb-4">Características Principais</h3>
+          <h2 className="text-3xl font-semibold text-green-700 mb-6 text-center">A Raça Vendéen</h2>
+          <div className="grid lg:grid-cols-2 gap-8 justify-items-center">
+            <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
+              <h3 className="text-2xl font-semibold text-green-800 mb-4 text-center">Características Principais</h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-green-600 mr-2">•</span>
@@ -148,8 +148,8 @@ const OurSheep: React.FC = () => {
                 </li>
               </ul>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-2xl font-semibold text-green-800 mb-4">Vantagens da Raça</h3>
+            <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
+              <h3 className="text-2xl font-semibold text-green-800 mb-4 text-center">Vantagens da Raça</h3>
               <div className="space-y-4">
                 <div className="border-l-4 border-green-500 pl-4">
                   <h4 className="font-semibold text-green-700">Qualidade da Carne</h4>
@@ -174,7 +174,7 @@ const OurSheep: React.FC = () => {
 
         {/* Image Gallery */}
         <section className="mb-12">
-          <h2 className="text-3xl font-semibold text-green-700 mb-6 text-center md:text-left">Galeria de Imagens</h2>
+          <h2 className="text-3xl font-semibold text-green-700 mb-6 text-center">Galeria de Imagens</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {sheepImages.map((image, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
@@ -193,7 +193,7 @@ const OurSheep: React.FC = () => {
 
         {/* Breeding Statistics */}
         <section>
-          <h2 className="text-3xl font-semibold text-green-700 mb-6 text-center md:text-left">Estatísticas do Rebanho</h2>
+          <h2 className="text-3xl font-semibold text-green-700 mb-6 text-center">Estatísticas do Rebanho</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <div className="text-3xl font-bold text-green-800 mb-2">50+</div>

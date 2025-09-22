@@ -254,7 +254,7 @@ const Contact: React.FC = () => {
 
           {/* Contact Form */}
           <div>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-6 text-center md:text-left">Envie-nos uma Mensagem</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-6 text-center">Envie-nos uma Mensagem</h2>
             
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Name */}

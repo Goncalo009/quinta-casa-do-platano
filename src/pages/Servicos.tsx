@@ -150,7 +150,7 @@ const Services: React.FC = () => {
       />
       
       <div className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold text-forest-800 mb-8">Nossos Serviços</h1>
+        <h1 className="text-4xl font-bold text-forest-800 mb-8 text-center">Nossos Serviços</h1>
         
         {/* Services Grid */}
         <section className="mb-16">
@@ -177,7 +177,7 @@ const Services: React.FC = () => {
 
         {/* Quote Request Form */}
         <section className="bg-white rounded-lg shadow-md p-8">
-          <h2 className="text-3xl font-semibold text-green-700 mb-6 text-center md:text-left">Solicitar Orçamento</h2>
+          <h2 className="text-3xl font-semibold text-green-700 mb-6 text-center">Solicitar Orçamento</h2>
           <p className="text-gray-600 mb-8">
             Interessado nos nossos serviços? Preencha o formulário abaixo e entraremos em contacto consigo 
             com uma proposta personalizada.

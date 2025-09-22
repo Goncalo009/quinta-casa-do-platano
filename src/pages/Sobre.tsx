@@ -83,10 +83,10 @@ const About: React.FC = () => {
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold text-forest-900 mb-6 text-center md:text-left">
+                <h2 className="text-3xl md:text-4xl font-bold text-forest-900 mb-6 text-center">
                   História da Nossa Ovinocultura
                 </h2>
-                <div className="space-y-4 text-brown text-center md:text-left">
+                <div className="space-y-4 text-brown text-center">
                   <p className="text-lg">
                     A Quinta Casa do Plátano nasceu há 5 anos do sonho de criar 
                     uma exploração de ovinocultura de excelência, especializada na criação de ovelhas Vendéen.
@@ -199,11 +199,11 @@ const About: React.FC = () => {
                 />
               </div>
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold text-forest-900 mb-6 text-center md:text-left">
+                <h2 className="text-3xl md:text-4xl font-bold text-forest-900 mb-6 text-center">
                   Programa de Melhoramento
                 </h2>
                 <div className="space-y-4 text-earth-700">
-                  <p className="text-lg text-center md:text-left">
+                  <p className="text-lg text-center">
                     O nosso programa de melhoramento genético é baseado em critérios 
                     rigorosos de seleção, visando a produção de animais com características 
                     superiores de conformação, produtividade e adaptabilidade.
