@@ -7,20 +7,20 @@ const VendaDeBorregos: React.FC = () => {
   // FAQ items específicos sobre venda de borregos
   const faqItems = [
     {
-      question: "Que tipos de borregos têm disponíveis para venda?",
-      answer: "Temos borregos Vendéen de linha pura com registo genealógico, desde crias até reprodutores adultos. Todos os animais têm certificação sanitária e acompanhamento veterinário."
+      question: "Onde posso comprar borregos de ovelhas Vendéen?",
+      answer: "Pode comprar borregos de ovelhas Vendéen diretamente na Quinta Casa do Plátano em Samora Correia. Temos borregos Vendéen de linha pura com registo genealógico, desde crias até reprodutores adultos. Todos os animais têm certificação sanitária e acompanhamento veterinário."
     },
     {
-      question: "Qual é o preço dos borregos Vendéen?",
-      answer: "Os preços variam conforme a idade, sexo e qualidade genética dos animais. Contacte-nos para obter uma cotação personalizada e conhecer a disponibilidade atual."
+      question: "Qual é o preço para comprar borregos de ovelhas Vendéen?",
+      answer: "Os preços dos borregos de ovelhas Vendéen variam conforme a idade, sexo e qualidade genética dos animais. Contacte-nos para obter uma cotação personalizada e conhecer a disponibilidade atual dos nossos borregos Vendéen."
     },
     {
-      question: "Como posso encomendar borregos?",
-      answer: "Pode contactar-nos por telefone (926 852 863), email ou através do formulário no site. Recomendamos marcar com antecedência, especialmente para reprodutores selecionados."
+      question: "Como posso comprar borregos de ovelhas Vendéen?",
+      answer: "Para comprar borregos de ovelhas Vendéen, pode contactar-nos por telefone (926 852 863), email ou através do formulário no site. Recomendamos marcar com antecedência, especialmente para reprodutores selecionados."
     },
     {
-      question: "Fazem entrega dos borregos?",
-      answer: "Sim, organizamos o transporte dos animais em todo o território nacional. O transporte é feito em condições adequadas de bem-estar animal e o custo é calculado conforme a distância."
+      question: "Fazem entrega dos borregos de ovelhas Vendéen?",
+      answer: "Sim, organizamos o transporte dos borregos de ovelhas Vendéen em todo o território nacional. O transporte é feito em condições adequadas de bem-estar animal e o custo é calculado conforme a distância."
     },
     {
       question: "Que documentação acompanha os borregos?",
@@ -42,8 +42,8 @@ const VendaDeBorregos: React.FC = () => {
   const productStructuredData = {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Borregos Vendéen Linha Pura",
-    "description": "Borregos da raça Vendéen com registo genealógico, criados na Quinta Casa do Plátano em Samora Correia",
+    "name": "Borregos de Ovelhas Vendéen Linha Pura",
+    "description": "Comprar borregos de ovelhas Vendéen com registo genealógico, criados na Quinta Casa do Plátano em Samora Correia. Borregos Vendéen linha pura disponíveis para compra.",
     "brand": {
       "@type": "Brand",
       "name": "Quinta Casa do Plátano"
@@ -80,9 +80,9 @@ const VendaDeBorregos: React.FC = () => {
   return (
     <div className="min-h-screen">
       <SEO 
-        title="🐑 Venda Borregos Reprodutores Vendéen Linha Pura | Registo Genealógico | Quinta Casa do Plátano"
-        description="✅ Compre borregos reprodutores Vendéen linha pura com registo genealógico! Criação especializada Samora Correia. Preços competitivos. Tel: 926 852 863. Entrega Portugal!"
-        keywords="venda borregos reprodutores vendéen, borregos linha pura registo genealógico, comprar reprodutores ovinos portugal, preços borregos vendéen, quinta casa do plátano venda, samora correia reprodutores"
+        title="🐑 Comprar Borregos de Ovelhas Vendéen | Linha Pura Registo Genealógico | Quinta Casa do Plátano"
+        description="✅ Comprar borregos de ovelhas Vendéen linha pura! Registo genealógico, certificados sanitários. Criação especializada Samora Correia. Tel: 926 852 863. Entrega Portugal!"
+        keywords="comprar borregos de ovelhas vendéen, comprar borregos ovelhas vendeen, venda borregos ovelhas vendéen, borregos ovelhas vendéen linha pura, onde comprar borregos vendéen portugal, preços borregos ovelhas vendéen, quinta casa do plátano borregos"
         url="https://quintacasadoplatano.pt/venda-de-borregos"
         structuredData={productStructuredData}
       />
@@ -92,10 +92,10 @@ const VendaDeBorregos: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Venda de Borregos Vendéen
+              Comprar Borregos de Ovelhas Vendéen
             </h1>
             <p className="text-xl md:text-2xl text-gold-300 mb-8">
-              Linha pura com registo genealógico
+              Linha pura com registo genealógico - Disponível para compra
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               <div className="flex items-center bg-white/10 rounded-full px-6 py-3">
@@ -120,7 +120,7 @@ const VendaDeBorregos: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12 text-forest-900">
-              Produtos Disponíveis
+              Borregos de Ovelhas Vendéen Disponíveis para Compra
             </h2>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -178,7 +178,7 @@ const VendaDeBorregos: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12 text-forest-900">
-              Características da Raça Vendéen
+              Por que Comprar Borregos de Ovelhas Vendéen?
             </h2>
             
             <div className="grid md:grid-cols-2 gap-8 justify-items-center">
@@ -276,7 +276,7 @@ const VendaDeBorregos: React.FC = () => {
       </section>
 
       {/* FAQ Section */}
-      <FAQ items={faqItems} title="Perguntas Frequentes sobre Venda de Borregos" />
+      <FAQ items={faqItems} title="Perguntas Frequentes sobre Comprar Borregos de Ovelhas Vendéen" />
     </div>
   );
 };
