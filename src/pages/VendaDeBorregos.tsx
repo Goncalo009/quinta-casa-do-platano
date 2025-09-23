@@ -19,8 +19,8 @@ const VendaDeBorregos: React.FC = () => {
       answer: "Para comprar borregos Mouton Vendéen, pode contactar-nos por telefone (926 852 863), email ou através do formulário no site. Recomendamos marcar com antecedência, especialmente para reprodutores selecionados."
     },
     {
-      question: "Fazem entrega dos borregos Mouton Vendéen?",
-      answer: "Sim, organizamos o transporte dos borregos Mouton Vendéen em todo o território nacional. O transporte é feito em condições adequadas de bem-estar animal e o custo é calculado conforme a distância."
+      question: "Como posso adquirir os borregos Mouton Vendéen?",
+      answer: "Para adquirir os nossos borregos Mouton Vendéen, contacte-nos através do telefone 926 852 863 ou email. Os animais devem ser levantados na nossa quinta em Samora Correia, onde poderá ver e escolher os reprodutores."
     },
     {
       question: "Que documentação acompanha os borregos?",
@@ -81,7 +81,7 @@ const VendaDeBorregos: React.FC = () => {
     <div className="min-h-screen">
       <SEO 
         title="🐑 Comprar Borregos Mouton Vendéen | Linha Pura Registo Genealógico | Quinta Casa do Plátano"
-        description="✅ Comprar borregos Mouton Vendéen linha pura! Registo genealógico, certificados sanitários. Criação especializada Samora Correia. Tel: 926 852 863. Entrega Portugal!"
+        description="✅ Comprar borregos Mouton Vendéen linha pura! Registo genealógico, certificados sanitários. Criação especializada Samora Correia. Tel: 926 852 863."
         keywords="comprar borregos mouton vendéen, mouton vendéen portugal, borregos mouton vendéen linha pura, onde comprar mouton vendéen portugal, preços borregos mouton vendéen, quinta casa do plátano mouton vendéen"
         url="https://quintacasadoplatano.pt/venda-de-borregos"
         structuredData={productStructuredData}
@@ -270,7 +270,7 @@ const VendaDeBorregos: React.FC = () => {
               <ul className="text-left space-y-2 max-w-2xl mx-auto">
                 <li>• Todos os animais possuem certificados sanitários em dia</li>
                 <li>• Registo genealógico oficial da raça Vendéen</li>
-                <li>• Possibilidade de entrega em Portugal Continental</li>
+                <li>• Levantamento dos animais na quinta em Samora Correia</li>
                 <li>• Acompanhamento técnico pós-venda disponível</li>
                 <li>• Visitas à quinta mediante marcação prévia</li>
               </ul>

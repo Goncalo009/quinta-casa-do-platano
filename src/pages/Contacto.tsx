@@ -408,7 +408,7 @@ const Contact: React.FC = () => {
               <h4 className="font-semibold text-gray-900 mb-3">Transporte Público</h4>
               <p className="text-gray-600 mb-4">
                 Estação de comboios mais próxima: Samora Correia. 
-                A partir da estação, pode contactar-nos para organizar o transporte até à quinta.
+                A partir da estação, pode contactar-nos para indicações de como chegar à quinta.
               </p>
               <p className="text-gray-600">
                 <strong>Nota:</strong> Recomendamos contacto prévio para visitas à quinta.

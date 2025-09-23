@@ -70,8 +70,8 @@ const Services: React.FC = () => {
       answer: "Todos os nossos reprodutores vêm com garantia de saúde, certificação genética, registos genealógicos completos e apoio técnico pós-venda para garantir o sucesso da vossa ovinocultura."
     },
     {
-      question: "Fazem entrega dos animais?",
-      answer: "Sim, organizamos o transporte dos animais de forma segura e em conformidade com todas as normas de bem-estar animal. O custo de transporte é calculado conforme a distância."
+      question: "Como posso adquirir os animais?",
+      answer: "Para adquirir os nossos reprodutores, contacte-nos para agendar uma visita à quinta. Os animais devem ser levantados nas nossas instalações em Samora Correia, onde poderá conhecer pessoalmente o rebanho e escolher os melhores reprodutores."
     },
     {
       question: "Oferecem consultoria em ovinocultura?",

@@ -60,7 +60,7 @@ const Home: React.FC = () => {
     <div className="min-h-screen">
       <SEO 
         title="Venda Borregos Reprodutores Mouton Vendéen | Linha Pura Registo Genealógico | Quinta Casa do Plátano"
-        description="🐑 Venda de borregos reprodutores Mouton Vendéen linha pura com registo genealógico. Ovinocultura especializada em Samora Correia. ☎️ 926 852 863. Entrega Portugal."
+        description="🐑 Venda de borregos reprodutores Mouton Vendéen linha pura com registo genealógico. Ovinocultura especializada em Samora Correia. ☎️ 926 852 863."
         keywords="venda borregos reprodutores, borregos mouton vendéen linha pura, reprodutores ovinos portugal, registo genealógico ovinos, ovinocultura samora correia, quinta casa do plátano, criação ovelhas mouton vendéen, reprodutores ovinos certificados"
         url="https://quintacasadoplatano.pt"
         structuredData={homeStructuredData}
