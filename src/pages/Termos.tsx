@@ -36,7 +36,7 @@ const Terms: React.FC = () => {
                   <p className="text-gray-700"><strong>Localização:</strong> Samora Correia, Portugal</p>
                   <p className="text-gray-700"><strong>Email:</strong> info@quintacasadoplatano.pt</p>
                   <p className="text-gray-700"><strong>Telefone:</strong> 926 852 863</p>
-                  <p className="text-gray-700"><strong>Atividade:</strong> Criação de ovelhas da raça Vendéen</p>
+                  <p className="text-gray-700"><strong>Atividade:</strong> Criação de ovelhas da raça Mouton Vendéen</p>
                 </div>
               </div>
               

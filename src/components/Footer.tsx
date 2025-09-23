@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
               </div>
             </div>
             <p className="text-cream-200 mb-6 leading-relaxed">
-              Especialistas na criação de ovelhas da raça Vendéen, oferecendo animais de alta qualidade 
+              Especialistas na criação de ovelhas da raça Mouton Vendéen, oferecendo animais de alta qualidade 
               e serviços técnicos especializados para criadores em todo o país.
             </p>
             

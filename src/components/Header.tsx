@@ -34,7 +34,7 @@ const Header: React.FC = () => {
               />
               <div>
                 <h1 className="text-xs font-bold text-forest-800 whitespace-nowrap">Quinta Casa do Plátano</h1>
-                <p className="text-[10px] text-stone-600 whitespace-nowrap">Criação de Ovelhas Vendéen</p>
+                <p className="text-[10px] text-stone-600 whitespace-nowrap">Criação de Ovelhas Mouton Vendéen</p>
               </div>
             </a>
           </div>

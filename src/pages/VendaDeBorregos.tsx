@@ -97,6 +97,10 @@ const VendaDeBorregos: React.FC = () => {
             <p className="text-xl md:text-2xl text-gold-300 mb-8">
               Linha pura com registo genealógico - Disponível para compra
             </p>
+            <p className="text-lg text-gray-300 mb-8 leading-relaxed">
+              Oferecemos borregos reprodutores da raça Mouton Vendéen de linha pura com registo genealógico. 
+              Todos os nossos animais são cuidadosamente selecionados para garantir a melhor qualidade genética.
+            </p>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               <div className="flex items-center bg-white/10 rounded-full px-6 py-3">
                 <Shield className="w-5 h-5 mr-2" />

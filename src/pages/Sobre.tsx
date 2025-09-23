@@ -33,7 +33,7 @@ const About: React.FC = () => {
     },
     {
       question: "Por que escolheram a raça Vendéen?",
-      answer: "A raça Vendéen destaca-se pela sua excelente qualidade de carne, adaptabilidade ao clima português e características reprodutivas superiores, tornando-se ideal para a ovinocultura nacional."
+      answer: "A raça Mouton Vendéen destaca-se pela sua excelente qualidade de carne, adaptabilidade ao clima português e características reprodutivas superiores, tornando-se ideal para a ovinocultura nacional."
     },
     {
       question: "Qual é a filosofia da Quinta Casa do Plátano?",
@@ -56,9 +56,9 @@ const About: React.FC = () => {
   return (
     <div className="min-h-screen">
       <SEO 
-        title="Sobre Nós | Ovinocultura Especializada Vendéen | 5 Anos Experiência | Quinta Casa do Plátano"
-        description="🏆 Conheça a Quinta Casa do Plátano: 5 anos de ovinocultura especializada em Samora Correia. Criação sustentável de ovelhas Vendéen com tradição e qualidade genética superior."
-        keywords="quinta casa do plátano história, ovinocultura especializada portugal, criação ovelhas vendéen samora correia, tradição familiar ovinos, qualidade genética reprodutores, criação sustentável ovinos"
+        title="Sobre Nós | Ovinocultura Especializada Mouton Vendéen | 5 Anos Experiência | Quinta Casa do Plátano"
+        description="🏆 Conheça a Quinta Casa do Plátano: 5 anos de ovinocultura especializada em Samora Correia. Criação sustentável de ovelhas Mouton Vendéen com tradição e qualidade genética superior."
+        keywords="quinta casa do plátano história, ovinocultura especializada portugal, criação ovelhas mouton vendéen samora correia, tradição familiar ovinos, qualidade genética reprodutores, criação sustentável ovinos"
         url="https://quintacasadoplatano.pt/sobre"
         structuredData={aboutStructuredData}
       />
@@ -89,7 +89,7 @@ const About: React.FC = () => {
                 <div className="space-y-4 text-brown text-center">
                   <p className="text-lg">
                     A Quinta Casa do Plátano nasceu há 5 anos do sonho de criar 
-                    uma exploração de ovinocultura de excelência, especializada na criação de ovelhas Vendéen.
+                    uma exploração de ovinocultura de excelência, especializada na criação de ovelhas Mouton Vendéen.
                   </p>
                   <p>
                     Localizada em Samora Correia, numa região privilegiada do Ribatejo para ovinocultura, 

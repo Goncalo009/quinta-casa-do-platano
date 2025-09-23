@@ -97,9 +97,9 @@ const Services: React.FC = () => {
     },
     {
       title: "Venda de Reprodutores Ovinos",
-      description: "Comercialização de ovelhas Vendéen de alta qualidade genética, desde crias até reprodutores selecionados para ovinocultura.",
+      description: "Comercialização de ovelhas Mouton Vendéen de alta qualidade genética, desde crias até reprodutores selecionados para ovinocultura.",
       features: [
-        "Ovelhas Vendéen com certificação de origem",
+        "Ovelhas Mouton Vendéen com certificação de origem",
         "Reprodutores ovinos de diferentes idades",
         "Garantia de saúde e qualidade genética",
         "Apoio técnico pós-venda em ovinocultura"
@@ -142,15 +142,22 @@ const Services: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <SEO 
-        title="Serviços Ovinocultura | Venda Reprodutores Ovinos Vendéen | Quinta Casa do Plátano"
-        description="🐑 Serviços especializados: criação ovelhas Vendéen, venda reprodutores ovinos certificados, acompanhamento técnico. 5 anos experiência Samora Correia. Orçamento grátis!"
-        keywords="serviços ovinocultura portugal, venda reprodutores ovinos vendéen, criação ovelhas especializadas, acompanhamento técnico ovinos, quinta casa do plátano serviços, melhoramento genético ovinos"
+        title="Serviços Ovinocultura Mouton Vendéen | Quinta Casa do Plátano | Samora Correia"
+        description="🐑 Serviços especializados em ovinocultura Mouton Vendéen: venda reprodutores, acompanhamento técnico, consultoria. ☎️ 926 852 863. Samora Correia."
+        keywords="serviços ovinocultura, mouton vendéen portugal, acompanhamento técnico ovinos, consultoria ovinocultura, quinta casa do plátano, reprodutores ovinos, samora correia"
         url="https://quintacasadoplatano.pt/servicos"
         structuredData={servicesStructuredData}
       />
       
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-4xl font-bold text-forest-800 mb-8 text-center">Nossos Serviços</h1>
+        
+        <div className="text-center mb-12">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Oferecemos serviços especializados em ovinocultura, com foco na criação e reprodução de ovelhas da raça Mouton Vendéen. 
+            A nossa experiência garante o melhor acompanhamento para o seu projeto.
+          </p>
+        </div>
         
         {/* Services Grid */}
         <section className="mb-16">

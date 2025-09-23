@@ -9,7 +9,7 @@ const Home: React.FC = () => {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Quinta Casa do Plátano",
-    "description": "Criação especializada de ovelhas Vendéen em Samora Correia",
+    "description": "Criação especializada de ovelhas Mouton Vendéen em Samora Correia",
     "url": "https://quintacasadoplatano.pt",
     "logo": "https://quintacasadoplatano.pt/logoOficial.webp",
     "address": {
@@ -32,7 +32,7 @@ const Home: React.FC = () => {
   const faqItems = [
     {
       question: "Que raça de ovelhas criam na Quinta Casa do Plátano?",
-      answer: "Especializamo-nos na criação de ovelhas da raça Vendéen, conhecidas pela sua excelente qualidade de carne e adaptabilidade ao clima português."
+      answer: "Especializamo-nos na criação de ovelhas da raça Mouton Vendéen, conhecidas pela sua excelente qualidade de carne e adaptabilidade ao clima português."
     },
     {
       question: "Onde está localizada a quinta?",
@@ -40,7 +40,7 @@ const Home: React.FC = () => {
     },
     {
       question: "Que serviços oferecem além da venda de animais?",
-      answer: "Além da venda de reprodutores ovinos, oferecemos serviços especializados de criação e reprodução de ovelhas Vendéen, com acompanhamento técnico especializado."
+      answer: "Além da venda de reprodutores ovinos, oferecemos serviços especializados de criação e reprodução de ovelhas Mouton Vendéen, com acompanhamento técnico especializado."
     },
     {
       question: "É possível visitar a quinta?",
@@ -52,16 +52,16 @@ const Home: React.FC = () => {
     },
     {
       question: "Que tipo de acompanhamento oferecem?",
-      answer: "Oferecemos acompanhamento técnico especializado na criação de ovelhas Vendéen, incluindo orientações sobre reprodução, alimentação e gestão do rebanho."
+      answer: "Oferecemos acompanhamento técnico especializado na criação de ovelhas Mouton Vendéen, incluindo orientações sobre reprodução, alimentação e gestão do rebanho."
     }
   ];
 
   return (
     <div className="min-h-screen">
       <SEO 
-        title="Venda Borregos Reprodutores Vendéen | Linha Pura Registo Genealógico | Quinta Casa do Plátano"
-        description="🐑 Venda de borregos reprodutores Vendéen linha pura com registo genealógico. Ovinocultura especializada em Samora Correia. ☎️ 926 852 863. Entrega Portugal."
-        keywords="venda borregos reprodutores, borregos vendéen linha pura, reprodutores ovinos portugal, registo genealógico ovinos, ovinocultura samora correia, quinta casa do plátano, criação ovelhas vendéen, reprodutores ovinos certificados"
+        title="Venda Borregos Reprodutores Mouton Vendéen | Linha Pura Registo Genealógico | Quinta Casa do Plátano"
+        description="🐑 Venda de borregos reprodutores Mouton Vendéen linha pura com registo genealógico. Ovinocultura especializada em Samora Correia. ☎️ 926 852 863. Entrega Portugal."
+        keywords="venda borregos reprodutores, borregos mouton vendéen linha pura, reprodutores ovinos portugal, registo genealógico ovinos, ovinocultura samora correia, quinta casa do plátano, criação ovelhas mouton vendéen, reprodutores ovinos certificados"
         url="https://quintacasadoplatano.pt"
         structuredData={homeStructuredData}
       />

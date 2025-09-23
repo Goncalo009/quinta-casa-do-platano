@@ -105,22 +105,25 @@ const OurSheep: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <SEO 
-        title="As Nossas Ovelhas Vendéen - Quinta Casa do Plátano | Galeria e Características"
-        description="Conheça as nossas ovelhas da raça Vendéen na Quinta Casa do Plátano. Veja a galeria de imagens e saiba mais sobre as características desta raça ovina francesa de alta qualidade."
-        keywords="ovelhas vendéen, raça ovina, galeria ovelhas, características vendéen, quinta casa do plátano, criação ovinos"
+        title="As Nossas Ovelhas Mouton Vendéen | Linha Pura Registo Genealógico | Quinta Casa do Plátano"
+        description="🐑 Conheça as nossas ovelhas Mouton Vendéen linha pura com registo genealógico. Criação especializada em Samora Correia. ☎️ 926 852 863. Qualidade garantida."
+        keywords="ovelhas mouton vendéen, linha pura registo genealógico, criação ovelhas portugal, quinta casa do plátano, ovinocultura samora correia, ovelhas reprodutoras, rebanho mouton vendéen"
         url="https://quintacasadoplatano.pt/our-sheep"
         structuredData={sheepStructuredData}
       />
       
       <div className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold text-forest-800 mb-8">As Nossas Ovelhas</h1>
+        <h1 className="text-4xl font-bold text-forest-800 mb-8">As Nossas Ovelhas Mouton Vendéen</h1>
         
         {/* Vendéen Breed Information */}
         <section className="mb-12">
-          <h2 className="text-3xl font-semibold text-green-700 mb-6 text-center">A Raça Vendéen</h2>
+          <h2 className="text-3xl font-semibold text-green-700 mb-6 text-center">A Raça Mouton Vendéen</h2>
           <div className="grid lg:grid-cols-2 gap-8 justify-items-center">
             <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
               <h3 className="text-2xl font-semibold text-green-800 mb-4 text-center">Características Principais</h3>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                A raça Mouton Vendéen é originária da região de Vendée, em França, sendo conhecida pela sua excelente qualidade de carne e adaptabilidade. São animais robustos, com boa capacidade reprodutiva e maternal.
+              </p>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-green-600 mr-2">•</span>

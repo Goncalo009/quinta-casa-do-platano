@@ -181,7 +181,7 @@ const Contact: React.FC = () => {
 
   const subjects = [
     'Informações sobre Ovinocultura',
-    'Compra de Ovelhas Vendéen',
+    'Compra de Ovelhas Mouton Vendéen',
     'Reprodutores Ovinos',
     'Visita à Quinta em Samora Correia',
     'Parcerias em Criação Ovina',
@@ -191,9 +191,9 @@ const Contact: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <SEO 
-        title="Contacto | Comprar Borregos Reprodutores Vendéen | Tel: 926 852 863 | Quinta Casa do Plátano"
-        description="📞 Contacte-nos para comprar borregos reprodutores Vendéen linha pura! Tel: 926 852 863 | Email: info@quintacasadoplatano.pt | Samora Correia, Portugal. Resposta rápida!"
-        keywords="contacto quinta casa do plátano, comprar borregos reprodutores vendéen, telefone 926 852 863, samora correia portugal, reprodutores ovinos contacto, ovinocultura portugal"
+        title="Contacto | Comprar Borregos Reprodutores Mouton Vendéen | Tel: 926 852 863 | Quinta Casa do Plátano"
+        description="📞 Contacte-nos para comprar borregos reprodutores Mouton Vendéen linha pura! Tel: 926 852 863 | Email: info@quintacasadoplatano.pt | Samora Correia, Portugal. Resposta rápida!"
+        keywords="contacto quinta casa do plátano, comprar borregos reprodutores mouton vendéen, telefone 926 852 863, samora correia portugal, reprodutores ovinos contacto, ovinocultura portugal"
         url="https://quintacasadoplatano.pt/contacto"
         structuredData={contactStructuredData}
       />
@@ -203,7 +203,7 @@ const Contact: React.FC = () => {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-forest-800 mb-4">Contacte a Quinta Casa do Plátano</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Entre em contacto para saber mais sobre a nossa ovinocultura especializada em ovelhas Vendéen, 
+            Entre em contacto para saber mais sobre a nossa ovinocultura especializada em ovelhas Mouton Vendéen, 
             reprodutores ovinos e serviços em Samora Correia. 
             Entre em contacto connosco através dos meios abaixo.
           </p>
