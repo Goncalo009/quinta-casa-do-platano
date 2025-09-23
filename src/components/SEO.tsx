@@ -15,7 +15,7 @@ const SEO: React.FC<SEOProps> = ({
   title = 'Quinta Casa do Plátano - Criação de Ovelhas Mouton Vendéen',
   description = 'Especialistas na criação de ovelhas da raça Mouton Vendéen em Samora Correia. Oferecemos animais de alta qualidade e serviços especializados para criadores.',
   keywords = 'ovelhas mouton vendéen, criação ovelhas, samora correia, quinta casa do plátano, ovinocultura, animais reprodução, reprodutores ovinos',
-  image = 'https://quintacasadoplatano.pt/heroSection-Ovelha.webp',
+  image = 'https://quintacasadoplatano.pt/logoOficial.webp',
   url = 'https://quintacasadoplatano.pt',
   type = 'website',
   structuredData
