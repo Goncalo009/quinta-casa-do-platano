@@ -7,20 +7,20 @@ const VendaDeBorregos: React.FC = () => {
   // FAQ items específicos sobre venda de borregos
   const faqItems = [
     {
-      question: "Onde posso comprar borregos de ovelhas Vendéen?",
-      answer: "Pode comprar borregos de ovelhas Vendéen diretamente na Quinta Casa do Plátano em Samora Correia. Temos borregos Vendéen de linha pura com registo genealógico, desde crias até reprodutores adultos. Todos os animais têm certificação sanitária e acompanhamento veterinário."
+      question: "Onde posso comprar borregos Mouton Vendéen?",
+      answer: "Pode comprar borregos Mouton Vendéen diretamente na Quinta Casa do Plátano em Samora Correia. Temos borregos Mouton Vendéen de linha pura com registo genealógico, desde crias até reprodutores adultos. Todos os animais têm certificação sanitária e acompanhamento veterinário."
     },
     {
-      question: "Qual é o preço para comprar borregos de ovelhas Vendéen?",
-      answer: "Os preços dos borregos de ovelhas Vendéen variam conforme a idade, sexo e qualidade genética dos animais. Contacte-nos para obter uma cotação personalizada e conhecer a disponibilidade atual dos nossos borregos Vendéen."
+      question: "Qual é o preço para comprar borregos Mouton Vendéen?",
+      answer: "Os preços dos borregos Mouton Vendéen variam conforme a idade, sexo e qualidade genética dos animais. Contacte-nos para obter uma cotação personalizada e conhecer a disponibilidade atual dos nossos borregos Mouton Vendéen."
     },
     {
-      question: "Como posso comprar borregos de ovelhas Vendéen?",
-      answer: "Para comprar borregos de ovelhas Vendéen, pode contactar-nos por telefone (926 852 863), email ou através do formulário no site. Recomendamos marcar com antecedência, especialmente para reprodutores selecionados."
+      question: "Como posso comprar borregos Mouton Vendéen?",
+      answer: "Para comprar borregos Mouton Vendéen, pode contactar-nos por telefone (926 852 863), email ou através do formulário no site. Recomendamos marcar com antecedência, especialmente para reprodutores selecionados."
     },
     {
-      question: "Fazem entrega dos borregos de ovelhas Vendéen?",
-      answer: "Sim, organizamos o transporte dos borregos de ovelhas Vendéen em todo o território nacional. O transporte é feito em condições adequadas de bem-estar animal e o custo é calculado conforme a distância."
+      question: "Fazem entrega dos borregos Mouton Vendéen?",
+      answer: "Sim, organizamos o transporte dos borregos Mouton Vendéen em todo o território nacional. O transporte é feito em condições adequadas de bem-estar animal e o custo é calculado conforme a distância."
     },
     {
       question: "Que documentação acompanha os borregos?",
@@ -42,8 +42,8 @@ const VendaDeBorregos: React.FC = () => {
   const productStructuredData = {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Borregos de Ovelhas Vendéen Linha Pura",
-    "description": "Comprar borregos de ovelhas Vendéen com registo genealógico, criados na Quinta Casa do Plátano em Samora Correia. Borregos Vendéen linha pura disponíveis para compra.",
+    "name": "Borregos Mouton Vendéen Linha Pura",
+    "description": "Comprar borregos Mouton Vendéen com registo genealógico. Linha pura francesa, certificados sanitários, vacinação completa. Disponíveis para compra na Quinta Casa do Plátano, Samora Correia.",
     "brand": {
       "@type": "Brand",
       "name": "Quinta Casa do Plátano"
@@ -80,9 +80,9 @@ const VendaDeBorregos: React.FC = () => {
   return (
     <div className="min-h-screen">
       <SEO 
-        title="🐑 Comprar Borregos de Ovelhas Vendéen | Linha Pura Registo Genealógico | Quinta Casa do Plátano"
-        description="✅ Comprar borregos de ovelhas Vendéen linha pura! Registo genealógico, certificados sanitários. Criação especializada Samora Correia. Tel: 926 852 863. Entrega Portugal!"
-        keywords="comprar borregos de ovelhas vendéen, comprar borregos ovelhas vendeen, venda borregos ovelhas vendéen, borregos ovelhas vendéen linha pura, onde comprar borregos vendéen portugal, preços borregos ovelhas vendéen, quinta casa do plátano borregos"
+        title="🐑 Comprar Borregos Mouton Vendéen | Linha Pura Registo Genealógico | Quinta Casa do Plátano"
+        description="✅ Comprar borregos Mouton Vendéen linha pura! Registo genealógico, certificados sanitários. Criação especializada Samora Correia. Tel: 926 852 863. Entrega Portugal!"
+        keywords="comprar borregos mouton vendéen, mouton vendéen portugal, borregos mouton vendéen linha pura, onde comprar mouton vendéen portugal, preços borregos mouton vendéen, quinta casa do plátano mouton vendéen"
         url="https://quintacasadoplatano.pt/venda-de-borregos"
         structuredData={productStructuredData}
       />
@@ -92,7 +92,7 @@ const VendaDeBorregos: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Comprar Borregos de Ovelhas Vendéen
+              Comprar Borregos Mouton Vendéen
             </h1>
             <p className="text-xl md:text-2xl text-gold-300 mb-8">
               Linha pura com registo genealógico - Disponível para compra
@@ -120,7 +120,7 @@ const VendaDeBorregos: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12 text-forest-900">
-              Borregos de Ovelhas Vendéen Disponíveis para Compra
+              Borregos Mouton Vendéen Disponíveis para Compra
             </h2>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -128,7 +128,7 @@ const VendaDeBorregos: React.FC = () => {
               <div className="bg-gradient-to-br from-forest-50 to-earth-50 rounded-lg p-6 shadow-lg">
                 <h3 className="text-xl font-bold mb-4 text-forest-900">Reprodutores Machos</h3>
                 <ul className="space-y-2 text-gray-700 mb-6">
-                  <li>• Linha pura Vendéen</li>
+                  <li>• Linha pura Mouton Vendéen</li>
                   <li>• Registo genealógico</li>
                   <li>• Certificados sanitários</li>
                   <li>• Idade: 8-24 meses</li>
@@ -143,7 +143,7 @@ const VendaDeBorregos: React.FC = () => {
               <div className="bg-gradient-to-br from-forest-50 to-earth-50 rounded-lg p-6 shadow-lg">
                 <h3 className="text-xl font-bold mb-4 text-forest-900">Reprodutoras Fêmeas</h3>
                 <ul className="space-y-2 text-gray-700 mb-6">
-                  <li>• Linha pura Vendéen</li>
+                  <li>• Linha pura Mouton Vendéen</li>
                   <li>• Registo genealógico</li>
                   <li>• Certificados sanitários</li>
                   <li>• Idade: 8-18 meses</li>
@@ -158,7 +158,7 @@ const VendaDeBorregos: React.FC = () => {
               <div className="bg-gradient-to-br from-forest-50 to-earth-50 rounded-lg p-6 shadow-lg">
                 <h3 className="text-xl font-bold mb-4 text-forest-900">Borregos Jovens</h3>
                 <ul className="space-y-2 text-gray-700 mb-6">
-                  <li>• Linha pura Vendéen</li>
+                  <li>• Linha pura Mouton Vendéen</li>
                   <li>• 3-8 meses de idade</li>
                   <li>• Vacinados e desparasitados</li>
                   <li>• Ideais para engorda</li>
@@ -178,7 +178,7 @@ const VendaDeBorregos: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12 text-forest-900">
-              Por que Comprar Borregos de Ovelhas Vendéen?
+              Por que Comprar Borregos Mouton Vendéen?
             </h2>
             
             <div className="grid md:grid-cols-2 gap-8 justify-items-center">
@@ -276,7 +276,7 @@ const VendaDeBorregos: React.FC = () => {
       </section>
 
       {/* FAQ Section */}
-      <FAQ items={faqItems} title="Perguntas Frequentes sobre Comprar Borregos de Ovelhas Vendéen" />
+      <FAQ items={faqItems} title="Perguntas Frequentes sobre Comprar Borregos Mouton Vendéen" />
     </div>
   );
 };
