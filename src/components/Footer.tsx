@@ -51,12 +51,12 @@ const Footer: React.FC = () => {
             <div className="flex flex-col items-center md:hidden mb-6">
               <img 
                 src="/logoOficial.webp" 
-                alt="Quinta Casa do Plátano" 
+                alt="Quinta Casa Do Plátano" 
                 className="w-40 h-40 rounded-full object-cover mb-4"
               />
               <div>
-                <h3 className="text-xl font-bold">Quinta Casa do Plátano</h3>
-                <p className="text-cream-300 text-sm">Criação de Ovelhas Vendéen</p>
+                <h3 className="text-xl font-bold">Quinta Casa Do Plátano</h3>
+                <p className="text-cream-300 text-sm">Criação de Ovelhas Mouton Vendéen</p>
               </div>
             </div>
             
@@ -64,12 +64,12 @@ const Footer: React.FC = () => {
             <div className="hidden md:flex items-center justify-start space-x-3 mb-6">
               <img 
                 src="/logoOficial.webp" 
-                alt="Quinta Casa do Plátano" 
+                alt="Quinta Casa Do Plátano" 
                 className="w-10 h-10 rounded-full object-cover"
               />
               <div>
-                <h3 className="text-lg font-bold">Quinta Casa do Plátano</h3>
-                <p className="text-cream-300 text-sm">Criação de Ovelhas Vendéen</p>
+                <h3 className="text-lg font-bold">Quinta Casa Do Plátano</h3>
+                <p className="text-cream-300 text-sm">Criação de Ovelhas Mouton Vendéen</p>
               </div>
             </div>
             <p className="text-cream-200 mb-6 leading-relaxed">
@@ -199,7 +199,7 @@ const Footer: React.FC = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-center md:text-left">
             <div className="text-cream-300 text-sm">
-              © {currentYear} Quinta Casa do Plátano. Todos os direitos reservados.
+              © {currentYear} Quinta Casa Do Plátano. Todos os direitos reservados.
             </div>
             <div className="flex space-x-6 justify-center">
               {resources.map((resource) => (

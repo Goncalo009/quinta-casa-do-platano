@@ -8,9 +8,19 @@ Sitemap: https://quintacasadoplatano.pt/sitemap.xml
 Disallow: /admin/
 Disallow: /private/
 
+# Disallow old English URLs (redirected to Portuguese)
+Disallow: /about
+Disallow: /our-sheep
+Disallow: /contact
+Disallow: /services
+Disallow: /privacy
+Disallow: /terms
+
 # Allow important pages
 Allow: /
-Allow: /sobre
+Allow: /sobre-nos
+Allow: /as-nossas-ovelhas
+Allow: /venda-de-borregos
 Allow: /servicos
 Allow: /contacto
 Allow: /termos

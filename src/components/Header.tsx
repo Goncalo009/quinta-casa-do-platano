@@ -6,7 +6,7 @@ const Header: React.FC = () => {
 
   const navigation = [
     { name: 'Início', href: '/' },
-    { name: 'Sobre Nós', href: '/sobre' },
+    { name: 'Sobre Nós', href: '/sobre-nos' },
     { name: 'As Nossas Ovelhas', href: '/as-nossas-ovelhas' },
     { name: 'Venda de Borregos', href: '/venda-de-borregos' },
     { name: 'Serviços', href: '/servicos' }
@@ -29,11 +29,11 @@ const Header: React.FC = () => {
             <a href="/" className="flex items-center space-x-3">
               <img 
                 src="/logoOficial.webp" 
-                alt="Quinta Casa do Plátano" 
+                alt="Quinta Casa Do Plátano" 
                 className="w-16 h-16 rounded-full object-cover"
               />
               <div>
-                <h1 className="text-xs font-bold text-forest-800 whitespace-nowrap">Quinta Casa do Plátano</h1>
+                <h1 className="text-xs font-bold text-forest-800 whitespace-nowrap">Quinta Casa Do Plátano</h1>
                 <p className="text-[10px] text-stone-600 whitespace-nowrap">Criação de Ovelhas Mouton Vendéen</p>
               </div>
             </a>

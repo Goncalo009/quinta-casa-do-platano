@@ -8,8 +8,8 @@ const About: React.FC = () => {
     "@context": "https://schema.org",
     "@type": "AboutPage",
     "name": "Sobre a Quinta Casa do Plátano",
-    "description": "5 anos de experiência na criação especializada de ovelhas Vendéen em Samora Correia",
-    "url": "https://quintacasadoplatano.pt/sobre",
+    "description": "5 anos de experiência na criação especializada de ovelhas Mouton Vendéen em Samora Correia",
+    "url": "https://quintacasadoplatano.pt/sobre-nos",
     "mainEntity": {
       "@type": "Organization",
       "name": "Quinta Casa do Plátano",
@@ -29,10 +29,10 @@ const About: React.FC = () => {
   const faqItems = [
     {
       question: "Há quantos anos a Quinta Casa do Plátano se dedica à ovinocultura?",
-      answer: "Temos 5 anos de experiência dedicados à criação especializada de ovelhas Vendéen, sempre com foco na qualidade genética e bem-estar animal."
+      answer: "Temos 5 anos de experiência dedicados à criação especializada de ovelhas Mouton Vendéen, sempre com foco na qualidade genética e bem-estar animal."
     },
     {
-      question: "Por que escolheram a raça Vendéen?",
+      question: "Por que escolheram a raça Mouton Vendéen?",
       answer: "A raça Mouton Vendéen destaca-se pela sua excelente qualidade de carne, adaptabilidade ao clima português e características reprodutivas superiores, tornando-se ideal para a ovinocultura nacional."
     },
     {
@@ -59,7 +59,7 @@ const About: React.FC = () => {
         title="Sobre Nós | Ovinocultura Especializada Mouton Vendéen | 5 Anos Experiência | Quinta Casa do Plátano"
         description="🏆 Conheça a Quinta Casa do Plátano: 5 anos de ovinocultura especializada em Samora Correia. Criação sustentável de ovelhas Mouton Vendéen com tradição e qualidade genética superior."
         keywords="quinta casa do plátano história, ovinocultura especializada portugal, criação ovelhas mouton vendéen samora correia, tradição familiar ovinos, qualidade genética reprodutores, criação sustentável ovinos"
-        url="https://quintacasadoplatano.pt/sobre"
+        url="https://quintacasadoplatano.pt/sobre-nos"
         structuredData={aboutStructuredData}
       />
       
@@ -71,7 +71,7 @@ const About: React.FC = () => {
               Quinta Casa do Plátano - Ovinocultura Especializada
             </h1>
             <p className="text-xl text-green-100">
-              5 anos de dedicação à criação sustentável de ovelhas Vendéen em Samora Correia
+              5 anos de dedicação à criação sustentável de ovelhas Mouton Vendéen em Samora Correia
             </p>
           </div>
         </div>
@@ -102,7 +102,7 @@ const About: React.FC = () => {
                     e no compromisso com práticas sustentáveis de ovinocultura.
                   </p>
                   <p>
-                    Hoje, somos reconhecidos como uma referência na criação de ovelhas Vendéen 
+                    Hoje, somos reconhecidos como uma referência na criação de ovelhas Mouton Vendéen 
                     em Portugal, fornecendo reprodutores de alta qualidade genética, focando 
                     no bem-estar animal e na sustentabilidade.
                   </p>
@@ -154,7 +154,7 @@ const About: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Qualidade Genética</h3>
                 <p className="text-gray-700">
-                  Seleção rigorosa de reprodutores com excelente qualidade genética e características superiores da raça Vendéen.
+                  Seleção rigorosa de reprodutores com excelente qualidade genética e características superiores da raça Mouton Vendéen.
                 </p>
               </div>
               
@@ -257,7 +257,7 @@ const About: React.FC = () => {
                   </h3>
                   <p className="text-brown">
                     Início da atividade com a aquisição dos primeiros reprodutores 
-                    Vendéen e estabelecimento das instalações base.
+                    Mouton Vendéen e estabelecimento das instalações base.
                   </p>
                 </div>
               </div>
@@ -286,7 +286,7 @@ const About: React.FC = () => {
                     2022 - Referência Regional
                   </h3>
                   <p className="text-brown">
-                    Reconhecimento como uma das principais explorações de Vendéen 
+                    Reconhecimento como uma das principais explorações de Mouton Vendéen 
                     na região, fornecendo reprodutores de qualidade.
                   </p>
                 </div>
@@ -302,7 +302,7 @@ const About: React.FC = () => {
                   </h3>
                   <p className="text-brown">
                     Implementação de melhorias nas instalações e práticas de gestão 
-                    do rebanho, consolidando a posição como referência na criação de Vendéen.
+                    do rebanho, consolidando a posição como referência na criação de Mouton Vendéen.
                   </p>
                 </div>
               </div>
@@ -321,7 +321,7 @@ const About: React.FC = () => {
               </h2>
               <p className="text-lg text-brown max-w-2xl mx-auto">
                 Profissionais dedicados que fazem da Quinta Casa do Plátano 
-                uma referência na criação de ovelhas Vendéen.
+                uma referência na criação de ovelhas Mouton Vendéen.
               </p>
             </div>
             
@@ -337,7 +337,7 @@ const About: React.FC = () => {
                   A nossa equipa combina anos de experiência prática com conhecimento especializado 
                   técnica especializada, garantindo os mais altos padrões de qualidade 
                   em todos os aspetos da criação animal. Cada membro da equipa partilha 
-                  a paixão pela raça Vendéen e o compromisso com a excelência.
+                  a paixão pela raça Mouton Vendéen e o compromisso com a excelência.
                 </p>
               </div>
             </div>

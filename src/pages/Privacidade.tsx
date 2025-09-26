@@ -1,9 +1,17 @@
 import React from 'react';
 import { Shield, Eye, Lock, UserCheck, Mail, Phone } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const Privacy: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEO 
+        title="Política de Privacidade | Quinta Casa do Plátano"
+        description="Política de privacidade da Quinta Casa do Plátano. Proteção de dados pessoais em conformidade com o RGPD. Transparência e segurança garantidas."
+        keywords="política privacidade, proteção dados, RGPD, quinta casa do plátano, privacidade dados pessoais"
+        url="https://quintacasadoplatano.pt/privacidade"
+      />
+      
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <div className="text-center mb-12">

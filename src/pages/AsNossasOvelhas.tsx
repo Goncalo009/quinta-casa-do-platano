@@ -6,12 +6,12 @@ const OurSheep: React.FC = () => {
   // FAQ items específicos sobre as ovelhas
   const faqItems = [
     {
-      question: "Que características têm as ovelhas Vendéen?",
-      answer: "As ovelhas Vendéen são originárias da França, conhecidas pela sua rusticidade, boa adaptação ao clima português, excelente fertilidade e qualidade da carne. São animais de porte médio com boa capacidade maternal."
+      question: "Que características têm as ovelhas Mouton Vendéen?",
+      answer: "As ovelhas Mouton Vendéen são originárias da França, conhecidas pela sua rusticidade, boa adaptação ao clima português, excelente fertilidade e qualidade da carne. São animais de porte médio com boa capacidade maternal."
     },
     {
       question: "Quantas ovelhas têm na quinta?",
-      answer: "Mantemos um rebanho selecionado de ovelhas Vendéen, todas com registo genealógico. O número varia conforme a época do ano e os nascimentos, mas focamos na qualidade em vez da quantidade."
+      answer: "Mantemos um rebanho selecionado de ovelhas Mouton Vendéen, todas com registo genealógico. O número varia conforme a época do ano e os nascimentos, mas focamos na qualidade em vez da quantidade."
     },
     {
       question: "As ovelhas estão sempre no campo?",
@@ -33,12 +33,12 @@ const OurSheep: React.FC = () => {
   const sheepStructuredData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "As Nossas Ovelhas Vendéen",
-    "description": "Galeria das nossas ovelhas da raça Vendéen criadas na Quinta Casa do Plátano",
+    "name": "As Nossas Ovelhas Mouton Vendéen",
+    "description": "Galeria das nossas ovelhas da raça Mouton Vendéen criadas na Quinta Casa do Plátano",
     "mainEntity": [
       {
         "@type": "LivestockBreed",
-        "name": "Ovelhas Vendéen",
+        "name": "Ovelhas Mouton Vendéen",
         "description": "Raça ovina francesa conhecida pela sua rusticidade e qualidade de carne",
         "breedingOrganization": {
           "@type": "Organization",
@@ -47,8 +47,8 @@ const OurSheep: React.FC = () => {
       },
       {
         "@type": "Product",
-        "name": "Reprodutores Vendéen",
-        "description": "Reprodutores ovinos da raça Vendéen com registo genealógico",
+        "name": "Reprodutores Mouton Vendéen",
+        "description": "Reprodutores ovinos da raça Mouton Vendéen com registo genealógico",
         "category": "Animais de Criação",
         "brand": {
           "@type": "Brand",
@@ -66,15 +66,15 @@ const OurSheep: React.FC = () => {
   const sheepImages = [
     {
       src: "/IMG-20250721-WA0002 (1).webp",
-      alt: "Ovelhas Vendéen pastando"
+      alt: "Ovelhas Mouton Vendéen pastando"
     },
     {
       src: "/IMG-20250721-WA0003.webp",
-      alt: "Retrato de ovelha Vendéen"
+      alt: "Retrato de ovelha Mouton Vendéen"
     },
     {
       src: "/IMG-20250721-WA0004.webp",
-      alt: "Rebanho de ovelhas Vendéen"
+      alt: "Rebanho de ovelhas Mouton Vendéen"
     },
     {
       src: "/IMG-20250721-WA0005.webp",
@@ -82,7 +82,7 @@ const OurSheep: React.FC = () => {
     },
     {
       src: "/IMG-20250721-WA0006.webp",
-      alt: "Características da raça Vendéen"
+      alt: "Características da raça Mouton Vendéen"
     },
     {
       src: "/IMG-20250721-WA0007.webp",
@@ -108,14 +108,14 @@ const OurSheep: React.FC = () => {
         title="As Nossas Ovelhas Mouton Vendéen | Linha Pura Registo Genealógico | Quinta Casa do Plátano"
         description="🐑 Conheça as nossas ovelhas Mouton Vendéen linha pura com registo genealógico. Criação especializada em Samora Correia. ☎️ 926 852 863. Qualidade garantida."
         keywords="ovelhas mouton vendéen, linha pura registo genealógico, criação ovelhas portugal, quinta casa do plátano, ovinocultura samora correia, ovelhas reprodutoras, rebanho mouton vendéen"
-        url="https://quintacasadoplatano.pt/our-sheep"
+        url="https://quintacasadoplatano.pt/as-nossas-ovelhas"
         structuredData={sheepStructuredData}
       />
       
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-4xl font-bold text-forest-800 mb-8">As Nossas Ovelhas Mouton Vendéen</h1>
         
-        {/* Vendéen Breed Information */}
+        {/* Mouton Vendéen Breed Information */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold text-green-700 mb-6 text-center">A Raça Mouton Vendéen</h2>
           <div className="grid lg:grid-cols-2 gap-8 justify-items-center">

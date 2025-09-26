@@ -2,6 +2,38 @@
   "buildCommand": "pnpm build",
   "outputDirectory": "dist",
   "framework": "vite",
+  "redirects": [
+    {
+      "source": "/about",
+      "destination": "/sobre-nos",
+      "permanent": true
+    },
+    {
+      "source": "/our-sheep",
+      "destination": "/as-nossas-ovelhas",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "/contacto",
+      "permanent": true
+    },
+    {
+      "source": "/services",
+      "destination": "/servicos",
+      "permanent": true
+    },
+    {
+      "source": "/privacy",
+      "destination": "/privacidade",
+      "permanent": true
+    },
+    {
+      "source": "/terms",
+      "destination": "/termos",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",

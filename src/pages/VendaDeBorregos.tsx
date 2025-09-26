@@ -67,7 +67,7 @@ const VendaDeBorregos: React.FC = () => {
       {
         "@type": "PropertyValue",
         "name": "Raça",
-        "value": "Vendéen"
+        "value": "Mouton Vendéen"
       },
       {
         "@type": "PropertyValue",
@@ -269,7 +269,7 @@ const VendaDeBorregos: React.FC = () => {
               <h3 className="text-xl font-bold mb-4">Informações Importantes</h3>
               <ul className="text-left space-y-2 max-w-2xl mx-auto">
                 <li>• Todos os animais possuem certificados sanitários em dia</li>
-                <li>• Registo genealógico oficial da raça Vendéen</li>
+                <li>• Registo genealógico oficial da raça Mouton Vendéen</li>
                 <li>• Levantamento dos animais na quinta em Samora Correia</li>
                 <li>• Acompanhamento técnico pós-venda disponível</li>
                 <li>• Visitas à quinta mediante marcação prévia</li>

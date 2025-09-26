@@ -1,9 +1,17 @@
 import React from 'react';
 import { FileText, Scale, AlertTriangle, CheckCircle, Mail, Phone } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const Terms: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEO 
+        title="Termos de Serviço | Quinta Casa do Plátano"
+        description="Termos de serviço da Quinta Casa do Plátano. Condições de utilização dos nossos serviços e navegação no website. Informações legais completas."
+        keywords="termos serviço, condições utilização, quinta casa do plátano, termos legais, condições website"
+        url="https://quintacasadoplatano.pt/termos"
+      />
+      
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <div className="text-center mb-12">
@@ -66,14 +74,14 @@ const Terms: React.FC = () => {
                 <div className="bg-cream-50 p-4 rounded-lg">
                   <h3 className="font-semibold text-gray-900 mb-2">Criação e Reprodução de Ovinos</h3>
                   <p className="text-gray-700 text-sm">
-                    Serviços especializados de ovinocultura com foco na criação sustentável de ovelhas Vendéen.
+                    Serviços especializados de ovinocultura com foco na criação sustentável de ovelhas Mouton Vendéen.
                   </p>
                 </div>
                 
                 <div className="bg-cream-50 p-4 rounded-lg">
                   <h3 className="font-semibold text-gray-900 mb-2">Venda de Reprodutores Ovinos</h3>
                   <p className="text-gray-700 text-sm">
-                    Comercialização de ovelhas Vendéen de alta qualidade genética, desde crias até reprodutores selecionados.
+                    Comercialização de ovelhas Mouton Vendéen de alta qualidade genética, desde crias até reprodutores selecionados.
                   </p>
                 </div>
               </div>

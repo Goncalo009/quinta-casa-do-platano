@@ -205,7 +205,7 @@ const Contact: React.FC = () => {
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Entre em contacto para saber mais sobre a nossa ovinocultura especializada em ovelhas Mouton Vendéen, 
             reprodutores ovinos e serviços em Samora Correia. 
-            Entre em contacto connosco através dos meios abaixo.
+            Contacte-nos através dos meios abaixo.
           </p>
         </div>
 
@@ -401,7 +401,7 @@ const Contact: React.FC = () => {
                 Saída para Samora Correia e siga as indicações para a quinta.
               </p>
               <p className="text-gray-600">
-                <strong>Coordenadas GPS:</strong> 38.9167° N, 8.9500° W
+                <strong>Coordenadas GPS:</strong> 38.9167° N, 8.8167° W
               </p>
             </div>
             <div>

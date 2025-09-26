@@ -19,7 +19,7 @@ const Services: React.FC = () => {
       "name": "Quinta Casa do Plátano"
     },
     "serviceType": "Ovinocultura e Criação de Ovinos",
-    "description": "Serviços especializados em criação de ovelhas Vendéen e venda de reprodutores ovinos",
+    "description": "Serviços especializados em criação de ovelhas Mouton Vendéen e venda de reprodutores ovinos",
     "areaServed": "Portugal",
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
@@ -30,7 +30,7 @@ const Services: React.FC = () => {
           "itemOffered": {
             "@type": "Service",
             "name": "Criação e Reprodução de Ovinos",
-            "description": "Serviços especializados de ovinocultura com foco na criação sustentável de ovelhas Vendéen"
+            "description": "Serviços especializados de ovinocultura com foco na criação sustentável de ovelhas Mouton Vendéen"
           }
         },
         {
@@ -38,7 +38,7 @@ const Services: React.FC = () => {
           "itemOffered": {
             "@type": "Service",
             "name": "Venda de Reprodutores Ovinos",
-            "description": "Comercialização de ovelhas Vendéen de alta qualidade genética"
+            "description": "Comercialização de ovelhas Mouton Vendéen de alta qualidade genética"
           }
         }
       ]
@@ -59,10 +59,10 @@ const Services: React.FC = () => {
   const faqItems = [
     {
       question: "Que tipos de serviços de ovinocultura oferecem?",
-      answer: "Oferecemos criação e reprodução de ovinos da raça Vendéen, venda de reprodutores de alta qualidade genética, acompanhamento veterinário especializado e programas de melhoramento genético."
+      answer: "Oferecemos criação e reprodução de ovinos da raça Mouton Vendéen, venda de reprodutores de alta qualidade genética, acompanhamento veterinário especializado e programas de melhoramento genético."
     },
     {
-      question: "Como posso adquirir ovelhas Vendéen da vossa quinta?",
+      question: "Como posso adquirir ovelhas Mouton Vendéen da vossa quinta?",
       answer: "Pode contactar-nos através do formulário nesta página ou por telefone. Oferecemos ovelhas de diferentes idades, desde crias até reprodutores adultos, todos com certificação de origem."
     },
     {
@@ -86,12 +86,12 @@ const Services: React.FC = () => {
   const services = [
     {
       title: "Criação e Reprodução de Ovinos",
-      description: "Serviços especializados de ovinocultura com foco na criação sustentável de ovelhas Vendéen, qualidade genética e bem-estar animal.",
+      description: "Serviços especializados de ovinocultura com foco na criação sustentável de ovelhas Mouton Vendéen, qualidade genética e bem-estar animal.",
       features: [
         "Seleção rigorosa de reprodutores ovinos",
         "Programa de melhoramento genético em ovinocultura",
         "Acompanhamento veterinário especializado em ovinos",
-        "Registos genealógicos completos de ovelhas Vendéen"
+        "Registos genealógicos completos de ovelhas Mouton Vendéen"
       ],
       icon: "🐑"
     },

@@ -35,8 +35,8 @@ const SEO: React.FC<SEOProps> = ({
       <meta name="language" content="Portuguese" />
       <meta name="geo.region" content="PT" />
       <meta name="geo.placename" content="Samora Correia" />
-      <meta name="geo.position" content="38.9547;-8.8164" />
-      <meta name="ICBM" content="38.9547, -8.8164" />
+      <meta name="geo.position" content="38.9167;-8.8167" />
+      <meta name="ICBM" content="38.9167, -8.8167" />
 
       {/* Open Graph Meta Tags */}
       <meta property="og:title" content={fullTitle} />

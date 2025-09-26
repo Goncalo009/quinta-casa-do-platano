@@ -80,7 +80,7 @@ const Home: React.FC = () => {
           />
           <img 
              src="/heroSection-Ovelha-desktop.webp"
-             alt="Ovelhas Vendéen na Quinta Casa do Plátano"
+             alt="Ovelhas Mouton Vendéen na Quinta Casa do Plátano"
              className="w-full h-full object-cover"
              style={{ 
                objectPosition: 'center 20%',
@@ -102,7 +102,7 @@ const Home: React.FC = () => {
               Quinta Casa do Plátano
             </h1>
             <p className="text-xl md:text-xl lg:text-2xl mb-8 md:mb-8 text-white drop-shadow-lg font-medium max-w-3xl">
-              Criação especializada de ovelhas Vendéen em Samora Correia
+              Criação especializada de ovelhas Mouton Vendéen em Samora Correia
             </p>
             <p className="text-base md:text-base mb-10 md:mb-10 text-white/90 max-w-2xl mx-auto drop-shadow-md leading-relaxed">
               Há 5 anos dedicados à excelência na criação de ovinos, oferecendo 
@@ -110,7 +110,7 @@ const Home: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 md:gap-4 justify-center w-full max-w-md sm:max-w-none">
               <Link 
-                to="/sobre" 
+                to="/sobre-nos" 
                 className="bg-gradient-to-r from-gold-500 to-gold-600 text-white px-8 md:px-8 py-4 md:py-4 rounded-lg font-semibold hover:from-gold-600 hover:to-gold-700 transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105 text-base"
               >
                 Conheça Nossa História
@@ -138,7 +138,7 @@ const Home: React.FC = () => {
               </h2>
               <p className="text-lg text-earth-700 max-w-2xl mx-auto">
                 Localizada em Samora Correia, a nossa quinta dedica-se à criação 
-                especializada de ovelhas da raça Vendéen, reconhecida pela sua qualidade e adaptabilidade.
+                especializada de ovelhas da raça Mouton Vendéen, reconhecida pela sua qualidade e adaptabilidade.
               </p>
             </div>
             
@@ -172,7 +172,7 @@ const Home: React.FC = () => {
                     </h3>
                     <p className="text-earth-700">
                       5 anos de experiência na criação e melhoramento genético 
-                      de ovelhas Vendéen, garantindo animais saudáveis e produtivos.
+                      de ovelhas Mouton Vendéen, garantindo animais saudáveis e produtivos.
                     </p>
                   </div>
                 </div>
@@ -222,7 +222,7 @@ const Home: React.FC = () => {
               </h2>
               <p className="text-lg text-earth-700 max-w-2xl mx-auto">
                 Oferecemos uma gama completa de serviços especializados para criadores 
-                e interessados na raça Vendéen.
+                e interessados na raça Mouton Vendéen.
               </p>
             </div>
             
@@ -239,7 +239,7 @@ const Home: React.FC = () => {
                   bem-estar animal e práticas sustentáveis de ovinocultura.
                 </p>
                 <Link 
-                  to="/sobre" 
+                  to="/sobre-nos" 
                   className="text-forest-900 font-semibold hover:text-gold-600 flex items-center gap-2"
                 >
                   Saber mais <ArrowRight className="w-4 h-4" />
@@ -254,7 +254,7 @@ const Home: React.FC = () => {
                   Venda de Animais
                 </h3>
                 <p className="text-earth-700 mb-4">
-                  Comercialização de ovelhas Vendéen de alta qualidade, desde 
+                  Comercialização de ovelhas Mouton Vendéen de alta qualidade, desde 
                   crias até reprodutores selecionados.
                 </p>
                 <Link 
@@ -273,11 +273,11 @@ const Home: React.FC = () => {
                   Acompanhamento Técnico
                 </h3>
                 <p className="text-earth-700 mb-4">
-                  Acompanhamento especializado na criação de ovelhas Vendéen, 
+                  Acompanhamento especializado na criação de ovelhas Mouton Vendéen, 
                   com suporte técnico personalizado para cada cliente.
                 </p>
                 <Link 
-                  to="/services" 
+                  to="/servicos" 
                   className="text-forest-900 font-semibold hover:text-gold-600 flex items-center gap-2"
                 >
                   Saber mais <ArrowRight className="w-4 h-4" />
